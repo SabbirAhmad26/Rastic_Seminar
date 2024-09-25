@@ -28,7 +28,7 @@ The goal is to develop a model that can imitate human driving behavior in these 
 
 ### Key Components:
 - **Intersection Navigation:** Handling right-of-way, stopping, and acceleration through intersections.
-- **Highway Merging:** Smooth lane changes and safe merging into traffic.
+- **Highway Merging:** Smooth lane following and safe merging into traffic.
 
 ## Project Structure
 
@@ -46,20 +46,6 @@ The goal is to develop a model that can imitate human driving behavior in these 
 
 ## Installation
 
-### Prerequisites
-- Python 3.7 or higher
-- TensorFlow/PyTorch (depending on your choice of framework)
-- OpenCV (for visualization and data processing)
-- ROS (Robot Operating System) for real-time control in the testbed
-
-Clone the repository and install the required dependencies:
-
-```bash
-git clone https://github.com/yourusername/autonomous-driving-imitation-learning.git
-cd autonomous-driving-imitation-learning
-pip install -r requirements.txt
-```
-
 ## Usage
 
 ### 1. Collect Expert Demonstration Data
@@ -72,23 +58,15 @@ python src/data_collection.py
 ### 2. Train the Imitation Learning Model
 Once the data is collected, train the imitation learning model using the following command:
 
-```bash
-python src/train.py --data data/ --epochs 50
-```
-
 ### 3. Test the Learned Policy
 After training, test the policy on the lab testbed:
 
-```bash
-python src/inference.py --model saved_models/model.pth
-```
-
 ## Testbed Setup
 
-The lab testbed simulates realistic traffic scenarios with an intersection and a highway merging point. The testbed can be set up using small robotic cars (such as F1Tenth or DonkeyCar) equipped with sensors (cameras, LIDAR, GPS). ROS is used for real-time control, data collection, and simulation of vehicle dynamics.
+The lab testbed simulates realistic traffic scenarios with an intersection and a highway merging point. The testbed can be set up using small robotic cars (Agilex Limo) equipped with sensors (cameras, LIDAR, GPS). ROS is used for real-time control, data collection, and simulation of vehicle dynamics.
 
 **Key Features:**
-- Intersection with traffic signals and other vehicles.
+- Intersections, merging.
 - Highway stretch for merging simulations.
 
 Ensure the testbed environment is properly calibrated for sensor data and vehicle control before running experiments.
