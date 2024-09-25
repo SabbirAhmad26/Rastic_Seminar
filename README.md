@@ -85,16 +85,13 @@ The imitation learning model is trained using supervised learning, where the inp
 
 ### Policy Execution
 
-Once trained, the model is deployed on the vehicle in the testbed. The vehicle uses the learned policy to make real-time driving decisions based on sensor input. We implement:
-- **Behavior Cloning (BC):** The model directly maps sensor inputs to driving commands.
-- **DAgger (Dataset Aggregation):** To improve performance, we implement an iterative approach where the model is fine-tuned with corrections from expert feedback.
+Once trained, the model is deployed on the vehicle in the testbed. The vehicle uses the learned policy to make real-time driving decisions based on sensor input. 
 
 ## Evaluation
 
 We evaluate the model's performance using the following metrics:
 - **Success Rate:** Percentage of successful intersection navigation and highway merging.
 - **Collision Rate:** Number of collisions during test runs.
-- **Smoothness:** Evaluated based on control inputs (steering and acceleration).
 
 ## Contributing
 
