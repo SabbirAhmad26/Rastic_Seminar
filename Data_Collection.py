@@ -1,53 +1,73 @@
 #!/usr/bin/env python3
-import rospy
-from geometry_msgs.msg import PoseStamped
-from nav_msgs.msg import Odometry
-from std_msgs.msg import String
-from pylimo import limo
-from ackermann_msgs.msg import AckermannDrive
-import time
-import numpy as np
+
+import os
 import cv2
 import json
-import os
-import threading
-from cav_project.msg import limo_info, ControlInfo
-from LidarX2 import LidarX2
 import datetime
+import time
+import argparse
+import numpy as np
+import pickle
+import threading
+from pylimo import limo
+from ackermann_msgs.msg import AckermannDrive
+from LidarX2 import LidarX2
+import rospy
 
-class LimoInfoPublisher:
-    def __init__(self, ID):
-        self.ID = ID
-        rospy.init_node('limo_info_publisher_'+self.ID)
+class listener:
+    def __init__(self):
+        self.data = None
+        self.xprev = 0
+        self.yprev = 0
 
-        # Initialize ROS publishers and subscribers
-        self.info_pub_cav1 = rospy.Publisher('/limo_info_'+self.ID, limo_info, queue_size=10)
-        self.control_info_sub_cav1 = rospy.Subscriber("control_info_"+self.ID, ControlInfo, self.control_info_callback)
+    def callback(self, data):
+        self.data = data
 
-        self.limo_data_cav1 = limo_info()
-        self.control_info_cav1 = ControlInfo()
-        self.rate = rospy.Rate(10)
+    def listener(self):
+        rospy.init_node("vs_listener", anonymous=True)
+        rospy.Subscriber("vel_steer_limo793", AckermannDrive, self.callback)
 
-        # Initialize Limo and LiDAR
+class LimoDataCollection:
+    def __init__(self, exp_name, lidar_port, divide_throttle=2.0, divide_steer=2.0, use_imutils=False):
+        self.exp_name = exp_name
+        self.divide_throttle = divide_throttle
+        self.divide_steer = divide_steer
+        self.use_imutils = use_imutils
+        self.listener_ins = listener()
+
+        # Initialize LIMO robot
         self.limo = limo.LIMO()
         self.limo.EnableCommand()
-        self.lidar = LidarX2('/dev/ttyUSB0')
 
-        # Initialize camera for data collection
-        self.cap = cv2.VideoCapture(0)
-        self.cap.set(cv2.CAP_PROP_FRAME_WIDTH, 640)
-        self.cap.set(cv2.CAP_PROP_FRAME_HEIGHT, 480)
-
-        # Create directories for storing data
-        dir_date = datetime.datetime.now().strftime("%m-%d-%Y")
-        self.date_exp = os.path.join(dir_date, "test_limo")
-        if not os.path.exists(self.date_exp):
-            os.makedirs(self.date_exp)
-            self.full_path = os.path.join(self.date_exp, "run_001")
+        # Initialize LiDAR
+        self.lidar = LidarX2(lidar_port)
+        if self.lidar.open():
+            print("LIDAR connection opened successfully.")
         else:
-            directories = [d for d in os.listdir(self.date_exp) if os.path.isdir(os.path.join(self.date_exp, d))]
+            print("Failed to open LIDAR connection.")
+            exit()
+
+        # Prepare for video capture
+        if self.use_imutils:
+            from imutils.video import VideoStream
+            self.cap = VideoStream(src=0).start()
+        else:
+            self.cap = cv2.VideoCapture(0)
+            width = 640
+            height = 480
+            self.cap.set(cv2.CAP_PROP_FRAME_WIDTH, width)
+            self.cap.set(cv2.CAP_PROP_FRAME_HEIGHT, height)
+
+        # Set up directories
+        dir_date = datetime.datetime.now().strftime("%m-%d-%Y")
+        date_exp = os.path.join(dir_date, self.exp_name)
+        if not os.path.exists(date_exp):
+            os.makedirs(date_exp)
+            self.full_path = os.path.join(date_exp, "run_001")
+        else:
+            directories = [d for d in os.listdir(date_exp) if os.path.isdir(os.path.join(date_exp, d))]
             run_number = len(directories) + 1
-            self.full_path = os.path.join(self.date_exp, f"run_{run_number:03d}")
+            self.full_path = os.path.join(date_exp, f"run_{run_number:03d}")
 
         os.makedirs(self.full_path, exist_ok=True)
         self.data_dir_rgb = os.path.join(self.full_path, "rgb")
@@ -55,114 +75,118 @@ class LimoInfoPublisher:
         os.makedirs(self.data_dir_rgb, exist_ok=True)
         os.makedirs(self.data_dir_label, exist_ok=True)
 
+        # Motion and data collection
         self.frame_count = 0
+        self.command = "Straight"
         self.collect_data = True
-
-    def control_info_callback(self, data):
-        self.control_info_cav1 = data
-
-    def publish_info(self):
-        self.info_pub_cav1.publish(self.limo_data_cav1)
+        self.fps = 0
+        self.start_time = time.time()
 
     def save_data(self, image_filename, frame, sensor_data_filename, json_str):
-        # Save image and sensor data
+        # Save the frame as an image
         cv2.imwrite(image_filename, frame)
+
+        # Write sensor data to JSON file
         with open(sensor_data_filename, 'w') as file:
             file.write(json_str)
 
     def run(self):
-        steering_angle = np.zeros(250)
-        imu_yaw = np.zeros(250)
         iter = 0
+        linear_vel = 0  # Initialize with default value
+        steering_angle = 0  # Initialize with default value
+        while True:
+            self.listener_ins.listener()
 
-        while not rospy.is_shutdown():
-            frame_start_time = time.time()  # Start time for FPS
+            frame_start_time = time.time()
 
-            if self.control_info_cav1.desired_velocity is not None:
-                # Set motion command
-                self.limo.SetMotionCommand(linear_vel=self.control_info_cav1.desired_velocity,
-                                           steering_angle=self.control_info_cav1.steering_angle)
+            # Get LiDAR measures
+            measures = self.lidar.getMeasures()
 
-                # Print the velocity and steering commands
-                print("Limo velocity command:", self.control_info_cav1.desired_velocity,
-                      "Limo steering:", self.control_info_cav1.steering_angle)
-
-                # Get actual velocity from the robot
-                try:
-                    actual_velocity = self.limo.GetLinearVelocity()
-                except AttributeError:
-                    actual_velocity = 0.0
-
-                # Print the actual velocity
-                print("actual_velocity:", actual_velocity)
-
-                self.limo_data_cav1.vel.data = actual_velocity
-                self.publish_info()
-
-                # Capture sensor and image data
-                ret, frame = self.cap.read()
-                if not ret or frame is None:
-                    rospy.logerr("Failed to capture image from camera")
-                    break
-
-                # Get LiDAR measurements
-                measures = self.lidar.getMeasures()
-
-                # Package all sensor data, including LiDAR data
-                sensor_data = {
-                    'EpochTime': time.time(),
-                    'DateTime': datetime.datetime.now().strftime("%m-%d-%Y_%H-%M-%S"),
-                    'LinearVelocity': actual_velocity,
-                    'AngularVelocity': self.limo.GetAngularVelocity() if hasattr(self.limo, 'GetAngularVelocity') else None,
-                    'SteeringAngle': self.limo.GetSteeringAngle() if hasattr(self.limo, 'GetSteeringAngle') else None,
-                    'LateralVelocity': self.limo.GetLateralVelocity() if hasattr(self.limo, 'GetLateralVelocity') else None,
-                    'ControlMode': self.limo.GetControlMode() if hasattr(self.limo, 'GetControlMode') else None,
-                    'BatteryVoltage': self.limo.GetBatteryVoltage() if hasattr(self.limo, 'GetBatteryVoltage') else None,
-                    'ErrorCode': self.limo.GetErrorCode() if hasattr(self.limo, 'GetErrorCode') else None,
-                    'RightWheelOdom': self.limo.GetRightWheelOdom() if hasattr(self.limo, 'GetRightWheelOdom') else None,
-                    'LeftWheelOdom': self.limo.GetLeftWheelOdom() if hasattr(self.limo, 'GetLeftWheelOdom') else None,
-                    'Acceleration': self.limo.GetIMUAccelData() if hasattr(self.limo, 'GetIMUAccelData') else None,
-                    'Gyro': self.limo.GetIMUGyroData() if hasattr(self.limo, 'GetIMUGyroData') else None,
-                    'Yaw': self.limo.GetIMUYawData() if hasattr(self.limo, 'GetIMUYawData') else None,
-                    'Pitch': self.limo.GetIMUPitchData() if hasattr(self.limo, 'GetIMUPitchData') else None,
-                    'Roll': self.limo.GetIMURollData() if hasattr(self.limo, 'GetIMURollData') else None,
-                    'Command': {
-                        'Throttle': self.control_info_cav1.desired_velocity,
-                        'Steer': self.control_info_cav1.steering_angle
-                    },
-                    'LiDAR': [{'Angle': measure.angle, 'Distance': measure.distance} for measure in measures]  # Split LiDAR data
-                }
-
-                # Convert sensor data to JSON string
-                json_str = json.dumps(sensor_data, indent=4)
-
-                # Save data
-                if self.collect_data:
-                    image_filename = f"{self.data_dir_rgb}/{self.frame_count:09d}.jpg"
-                    sensor_data_filename = f"{self.data_dir_label}/{self.frame_count:09d}.json"
-                    save_thread = threading.Thread(target=self.save_data, args=(image_filename, frame, sensor_data_filename, json_str))
-                    save_thread.start()
-
-                self.frame_count += 1
-
-                # FPS calculation and logging
-                frame_end_time = time.time()
-                elapsed_time = frame_end_time - frame_start_time
-                fps = 1 / elapsed_time if elapsed_time > 0 else 0
-                print(f"Time: {elapsed_time:.2f}")
-                print(f"FPS: {fps:.2f}")
-
-                iter += 1
-                time.sleep(0.1)
-
-                self.rate.sleep()
+            # Capture video frame
+            if self.use_imutils:
+                frame = self.cap.read()
             else:
-                rospy.logwarn("No control info received, skipping iteration.")
-                if iter > 10:
-                    break
+                _, frame = self.cap.read()
 
-        self.cap.release()
+            if frame is None:
+                break
+
+            if self.listener_ins.data is not None:
+                # Set motion commands from ROS topic
+                linear_vel = self.listener_ins.data.speed
+                steering_angle = self.listener_ins.data.steering_angle
+                self.limo.SetMotionCommand(linear_vel=linear_vel, steering_angle=steering_angle)
+
+                print(f"Limo velocity command: {linear_vel}, Limo steering: {steering_angle}")
+
+            # Collect sensor data
+            try:
+                left_wheel_odom = self.limo.GetLeftWheelOdom()
+            except:
+                left_wheel_odom = None
+
+            sensor_data = {
+                'EpochTime': time.time(),
+                'DateTime': datetime.datetime.now().strftime("%m-%d-%Y_%H-%M-%S"),
+                'LinearVelocity': self.limo.GetLinearVelocity(),
+                'AngularVelocity': self.limo.GetAngularVelocity(),
+                'SteeringAngle': self.limo.GetSteeringAngle(),
+                'LateralVelocity': self.limo.GetLateralVelocity(),
+                'ControlMode': self.limo.GetControlMode(),
+                'BatteryVoltage': self.limo.GetBatteryVoltage(),
+                'ErrorCode': self.limo.GetErrorCode(),
+                'RightWheelOdom': self.limo.GetRightWheelOdom(),
+                'LeftWheelOdom': left_wheel_odom,
+                'Acceleration': self.limo.GetIMUAccelData(),
+                'Gyro': self.limo.GetIMUGyroData(),
+                'Yaw': self.limo.GetIMUYawData(),
+                'Pitch': self.limo.GetIMUPitchData() if hasattr(self.limo, 'GetIMUPitchData') else None,  # Check for Pitch data
+                'Roll': self.limo.GetIMURollData() if hasattr(self.limo, 'GetIMURollData') else None,
+                'Command': {
+                    'Throttle': linear_vel,
+                    'Steer': steering_angle
+                },
+                'LiDAR': [{'Angle': measure.angle, 'Distance': measure.distance} for measure in measures]
+            }
+
+            json_str = json.dumps(sensor_data, indent=4)
+            image_filename = f"{self.data_dir_rgb}/{self.frame_count:09d}.jpg"
+            sensor_data_filename = f"{self.data_dir_label}/{self.frame_count:09d}.json"
+
+            if self.collect_data:
+                save_thread = threading.Thread(target=self.save_data, args=(image_filename, frame, sensor_data_filename, json_str))
+                save_thread.start()
+
+            self.frame_count += 1
+            iter += 1
+
+            frame_end_time = time.time()
+            elapsed_time = frame_end_time - frame_start_time
+            self.fps = 1 / elapsed_time
+            print(f"Time: {elapsed_time:.2f} seconds, FPS: {self.fps:.2f}")
+
+            key = cv2.waitKey(1)
+            if key == ord("q"):
+                break
+
+        self.lidar.close()
+        print("LIDAR connection closed.")
 
 if __name__ == '__main__':
-    publisher = LimoInfoPublisher("limo793")
-    publisher.run()
+    parser = argparse.ArgumentParser()
+    parser.add_argument('--exp', type=str, default="test_limo", help="Experiment name")
+    parser.add_argument('--divide_throttle', type=float, default=2.0, help='Divide the throttle by this amount')
+    parser.add_argument('--divide_steer', type=float, default=2.0, help='Divide the steering by this amount')
+    parser.add_argument('--use_imutils', action='store_true', help='Use imutils to get the frame')
+
+    args = parser.parse_args()
+
+    limo_data_collection = LimoDataCollection(
+        exp_name=args.exp,
+        lidar_port='/dev/ttyUSB0',
+        divide_throttle=args.divide_throttle,
+        divide_steer=args.divide_steer,
+        use_imutils=args.use_imutils
+    )
+
+    limo_data_collection.run()
