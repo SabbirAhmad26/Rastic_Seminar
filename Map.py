@@ -62,13 +62,6 @@ class CAV():
         self.pt_t = (-4631, 630)
         self.pt_u = (-4630, 2507)
 
-
-
-
-
-
-
-
         #equations for each line, in the A B C form, each variable is a tuple (A, B, C)
         self.path_A = self.generate_line(self.pt_a, self.pt_r)
         self.path_B = self.generate_line(self.pt_a, self.pt_b)
