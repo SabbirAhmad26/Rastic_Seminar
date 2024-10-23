@@ -5,14 +5,14 @@ from cav_for_PID_tuning import CAV
 def main():
     #initialize CAV, PID values, and another parameters
     CAV1 = CAV("limo793")
-    CAV1.generate_map('n')
+    CAV1.generate_map('f')
 
     eprev_lateral_1= 0
     eint_lateral_1 = 0
     e = 0
     transmissionRate = 30
     dt = 1/transmissionRate # or 0.1
-    v_ref_CAV1 = 0.7 # set between 0.5 and 0.6
+    v_ref_CAV1 = 0.6# set between 0.5 and 0.6
     within_critical_range = False
     line_changed = True
 
