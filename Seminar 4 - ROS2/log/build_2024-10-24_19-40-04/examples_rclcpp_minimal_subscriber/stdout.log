@@ -1,0 +1,23 @@
+[ 33%] Built target subscriber_not_composable
+[ 66%] Built target subscriber_lambda
+[100%] Built target subscriber_member_function
+-- Install configuration: ""
+-- Execute custom install script
+-- Up-to-date symlink: /home/rastic-smartcity/ros2_ws/install/examples_rclcpp_minimal_subscriber/lib/examples_rclcpp_minimal_subscriber/subscriber_lambda
+-- Up-to-date symlink: /home/rastic-smartcity/ros2_ws/install/examples_rclcpp_minimal_subscriber/lib/examples_rclcpp_minimal_subscriber/subscriber_member_function
+-- Up-to-date symlink: /home/rastic-smartcity/ros2_ws/install/examples_rclcpp_minimal_subscriber/lib/examples_rclcpp_minimal_subscriber/subscriber_not_composable
+-- Up-to-date symlink: /home/rastic-smartcity/ros2_ws/install/examples_rclcpp_minimal_subscriber/share/ament_index/resource_index/package_run_dependencies/examples_rclcpp_minimal_subscriber
+-- Up-to-date symlink: /home/rastic-smartcity/ros2_ws/install/examples_rclcpp_minimal_subscriber/share/ament_index/resource_index/parent_prefix_path/examples_rclcpp_minimal_subscriber
+-- Up-to-date symlink: /home/rastic-smartcity/ros2_ws/install/examples_rclcpp_minimal_subscriber/share/examples_rclcpp_minimal_subscriber/environment/ament_prefix_path.sh
+-- Up-to-date symlink: /home/rastic-smartcity/ros2_ws/install/examples_rclcpp_minimal_subscriber/share/examples_rclcpp_minimal_subscriber/environment/ament_prefix_path.dsv
+-- Up-to-date symlink: /home/rastic-smartcity/ros2_ws/install/examples_rclcpp_minimal_subscriber/share/examples_rclcpp_minimal_subscriber/environment/path.sh
+-- Up-to-date symlink: /home/rastic-smartcity/ros2_ws/install/examples_rclcpp_minimal_subscriber/share/examples_rclcpp_minimal_subscriber/environment/path.dsv
+-- Up-to-date symlink: /home/rastic-smartcity/ros2_ws/install/examples_rclcpp_minimal_subscriber/share/examples_rclcpp_minimal_subscriber/local_setup.bash
+-- Up-to-date symlink: /home/rastic-smartcity/ros2_ws/install/examples_rclcpp_minimal_subscriber/share/examples_rclcpp_minimal_subscriber/local_setup.sh
+-- Up-to-date symlink: /home/rastic-smartcity/ros2_ws/install/examples_rclcpp_minimal_subscriber/share/examples_rclcpp_minimal_subscriber/local_setup.zsh
+-- Up-to-date symlink: /home/rastic-smartcity/ros2_ws/install/examples_rclcpp_minimal_subscriber/share/examples_rclcpp_minimal_subscriber/local_setup.dsv
+-- Symlinking: /home/rastic-smartcity/ros2_ws/install/examples_rclcpp_minimal_subscriber/share/examples_rclcpp_minimal_subscriber/package.dsv
+-- Up-to-date symlink: /home/rastic-smartcity/ros2_ws/install/examples_rclcpp_minimal_subscriber/share/ament_index/resource_index/packages/examples_rclcpp_minimal_subscriber
+-- Up-to-date symlink: /home/rastic-smartcity/ros2_ws/install/examples_rclcpp_minimal_subscriber/share/examples_rclcpp_minimal_subscriber/cmake/examples_rclcpp_minimal_subscriberConfig.cmake
+-- Up-to-date symlink: /home/rastic-smartcity/ros2_ws/install/examples_rclcpp_minimal_subscriber/share/examples_rclcpp_minimal_subscriber/cmake/examples_rclcpp_minimal_subscriberConfig-version.cmake
+-- Up-to-date symlink: /home/rastic-smartcity/ros2_ws/install/examples_rclcpp_minimal_subscriber/share/examples_rclcpp_minimal_subscriber/package.xml

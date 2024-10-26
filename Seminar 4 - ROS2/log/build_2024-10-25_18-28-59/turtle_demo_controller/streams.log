@@ -1,0 +1,21 @@
+[0.739s] Invoking command in '/home/rastic-smartcity/ros2_ws/src/turtle_controller': PYTHONPATH=/home/rastic-smartcity/ros2_ws/build/turtle_demo_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rastic-smartcity/ros2_ws/install/turtle_demo_controller/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/turtle_demo_controller build --build-base /home/rastic-smartcity/ros2_ws/build/turtle_demo_controller/build install --record /home/rastic-smartcity/ros2_ws/build/turtle_demo_controller/install.log --single-version-externally-managed install_data
+[0.988s] running egg_info
+[0.989s] writing ../../build/turtle_demo_controller/turtle_controller.egg-info/PKG-INFO
+[0.989s] writing dependency_links to ../../build/turtle_demo_controller/turtle_controller.egg-info/dependency_links.txt
+[0.989s] writing entry points to ../../build/turtle_demo_controller/turtle_controller.egg-info/entry_points.txt
+[0.989s] writing requirements to ../../build/turtle_demo_controller/turtle_controller.egg-info/requires.txt
+[0.989s] writing top-level names to ../../build/turtle_demo_controller/turtle_controller.egg-info/top_level.txt
+[1.025s] reading manifest file '../../build/turtle_demo_controller/turtle_controller.egg-info/SOURCES.txt'
+[1.026s] writing manifest file '../../build/turtle_demo_controller/turtle_controller.egg-info/SOURCES.txt'
+[1.026s] running build
+[1.026s] running build_py
+[1.026s] running install
+[1.027s] running install_lib
+[1.029s] running install_data
+[1.029s] running install_egg_info
+[1.031s] removing '/home/rastic-smartcity/ros2_ws/install/turtle_demo_controller/lib/python3.8/site-packages/turtle_controller-0.0.0-py3.8.egg-info' (and everything under it)
+[1.031s] Copying ../../build/turtle_demo_controller/turtle_controller.egg-info to /home/rastic-smartcity/ros2_ws/install/turtle_demo_controller/lib/python3.8/site-packages/turtle_controller-0.0.0-py3.8.egg-info
+[1.032s] running install_scripts
+[1.050s] Installing controller script to /home/rastic-smartcity/ros2_ws/install/turtle_demo_controller/lib/turtle_demo_controller
+[1.051s] writing list of installed files to '/home/rastic-smartcity/ros2_ws/build/turtle_demo_controller/install.log'
+[1.071s] Invoked command in '/home/rastic-smartcity/ros2_ws/src/turtle_controller' returned '0': PYTHONPATH=/home/rastic-smartcity/ros2_ws/build/turtle_demo_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rastic-smartcity/ros2_ws/install/turtle_demo_controller/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/turtle_demo_controller build --build-base /home/rastic-smartcity/ros2_ws/build/turtle_demo_controller/build install --record /home/rastic-smartcity/ros2_ws/build/turtle_demo_controller/install.log --single-version-externally-managed install_data

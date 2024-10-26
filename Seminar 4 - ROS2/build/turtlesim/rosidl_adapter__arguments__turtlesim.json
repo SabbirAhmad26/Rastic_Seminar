@@ -1,0 +1,13 @@
+{
+  "package_name": "turtlesim",
+  "non_idl_tuples": [
+    "/home/rastic-smartcity/ros2_ws/src/ros_tutorials/turtlesim:action/RotateAbsolute.action",
+    "/home/rastic-smartcity/ros2_ws/src/ros_tutorials/turtlesim:msg/Color.msg",
+    "/home/rastic-smartcity/ros2_ws/src/ros_tutorials/turtlesim:msg/Pose.msg",
+    "/home/rastic-smartcity/ros2_ws/src/ros_tutorials/turtlesim:srv/Kill.srv",
+    "/home/rastic-smartcity/ros2_ws/src/ros_tutorials/turtlesim:srv/SetPen.srv",
+    "/home/rastic-smartcity/ros2_ws/src/ros_tutorials/turtlesim:srv/Spawn.srv",
+    "/home/rastic-smartcity/ros2_ws/src/ros_tutorials/turtlesim:srv/TeleportAbsolute.srv",
+    "/home/rastic-smartcity/ros2_ws/src/ros_tutorials/turtlesim:srv/TeleportRelative.srv"
+  ]
+}

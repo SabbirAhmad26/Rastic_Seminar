@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?><testsuites><testsuite errors="0" failures="0" hostname="rastic-XPS-9315" name="pytest" skipped="0" tests="3" time="0.218" timestamp="2024-10-24T19:26:30.143825"><testcase classname="examples_rclpy_minimal_service.services.minimal_service.test.test_copyright" name="test_copyright" time="0.018"><system-out>No problems found, checked 6 files
+</system-out></testcase><testcase classname="examples_rclpy_minimal_service.services.minimal_service.test.test_flake8" name="test_flake8" time="0.103"><system-out>
+7 files checked
+No problems found
+
+Checked files:
+
+* ./setup.py
+* ./examples_rclpy_minimal_service/service_member_function.py
+* ./examples_rclpy_minimal_service/__init__.py
+* ./examples_rclpy_minimal_service/service.py
+* ./test/test_copyright.py
+* ./test/test_pep257.py
+* ./test/test_flake8.py
+</system-out></testcase><testcase classname="examples_rclpy_minimal_service.services.minimal_service.test.test_pep257" name="test_pep257" time="0.022"><system-out>checking ./examples_rclpy_minimal_service/__init__.py
+checking ./examples_rclpy_minimal_service/service.py
+checking ./examples_rclpy_minimal_service/service_member_function.py
+checking ./setup.py
+checking ./test/test_copyright.py
+checking ./test/test_flake8.py
+checking ./test/test_pep257.py
+No problems found
+</system-out></testcase></testsuite></testsuites>

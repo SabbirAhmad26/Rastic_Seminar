@@ -1,0 +1,34 @@
+[0.697s] Invoking command in '/home/rastic-smartcity/ros2_ws/src/my_package': PYTHONPATH=/home/rastic-smartcity/ros2_ws/build/my_package/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rastic-smartcity/ros2_ws/install/my_package/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/my_package build --build-base /home/rastic-smartcity/ros2_ws/build/my_package/build install --record /home/rastic-smartcity/ros2_ws/build/my_package/install.log --install-scripts $base/lib/my_package --single-version-externally-managed install_data
+[0.910s] running egg_info
+[0.910s] creating ../../build/my_package/my_package.egg-info
+[0.910s] writing ../../build/my_package/my_package.egg-info/PKG-INFO
+[0.911s] writing dependency_links to ../../build/my_package/my_package.egg-info/dependency_links.txt
+[0.911s] writing entry points to ../../build/my_package/my_package.egg-info/entry_points.txt
+[0.911s] writing requirements to ../../build/my_package/my_package.egg-info/requires.txt
+[0.911s] writing top-level names to ../../build/my_package/my_package.egg-info/top_level.txt
+[0.912s] writing manifest file '../../build/my_package/my_package.egg-info/SOURCES.txt'
+[0.947s] reading manifest file '../../build/my_package/my_package.egg-info/SOURCES.txt'
+[0.948s] writing manifest file '../../build/my_package/my_package.egg-info/SOURCES.txt'
+[0.948s] running build
+[0.948s] running build_py
+[0.948s] creating /home/rastic-smartcity/ros2_ws/build/my_package/build
+[0.949s] creating /home/rastic-smartcity/ros2_ws/build/my_package/build/lib
+[0.949s] creating /home/rastic-smartcity/ros2_ws/build/my_package/build/lib/my_package
+[0.949s] copying my_package/my_node.py -> /home/rastic-smartcity/ros2_ws/build/my_package/build/lib/my_package
+[0.949s] copying my_package/__init__.py -> /home/rastic-smartcity/ros2_ws/build/my_package/build/lib/my_package
+[0.949s] running install
+[0.949s] running install_lib
+[0.950s] creating /home/rastic-smartcity/ros2_ws/install/my_package/lib/python3.8/site-packages/my_package
+[0.950s] copying /home/rastic-smartcity/ros2_ws/build/my_package/build/lib/my_package/my_node.py -> /home/rastic-smartcity/ros2_ws/install/my_package/lib/python3.8/site-packages/my_package
+[0.950s] copying /home/rastic-smartcity/ros2_ws/build/my_package/build/lib/my_package/__init__.py -> /home/rastic-smartcity/ros2_ws/install/my_package/lib/python3.8/site-packages/my_package
+[0.950s] byte-compiling /home/rastic-smartcity/ros2_ws/install/my_package/lib/python3.8/site-packages/my_package/my_node.py to my_node.cpython-38.pyc
+[0.952s] byte-compiling /home/rastic-smartcity/ros2_ws/install/my_package/lib/python3.8/site-packages/my_package/__init__.py to __init__.cpython-38.pyc
+[0.952s] running install_data
+[0.952s] copying resource/my_package -> /home/rastic-smartcity/ros2_ws/install/my_package/share/ament_index/resource_index/packages
+[0.952s] copying package.xml -> /home/rastic-smartcity/ros2_ws/install/my_package/share/my_package
+[0.952s] running install_egg_info
+[0.954s] Copying ../../build/my_package/my_package.egg-info to /home/rastic-smartcity/ros2_ws/install/my_package/lib/python3.8/site-packages/my_package-0.0.0-py3.8.egg-info
+[0.955s] running install_scripts
+[0.973s] Installing my_node script to /home/rastic-smartcity/ros2_ws/install/my_package/lib/my_package
+[0.973s] writing list of installed files to '/home/rastic-smartcity/ros2_ws/build/my_package/install.log'
+[1.004s] Invoked command in '/home/rastic-smartcity/ros2_ws/src/my_package' returned '0': PYTHONPATH=/home/rastic-smartcity/ros2_ws/build/my_package/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rastic-smartcity/ros2_ws/install/my_package/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/my_package build --build-base /home/rastic-smartcity/ros2_ws/build/my_package/build install --record /home/rastic-smartcity/ros2_ws/build/my_package/install.log --install-scripts $base/lib/my_package --single-version-externally-managed install_data

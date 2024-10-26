@@ -1,0 +1,8 @@
+-- run_test.py: invoking following command in '/home/rastic-smartcity/ros2_ws/src/examples/rclcpp/topics/minimal_publisher':
+ - /opt/ros/foxy/bin/ament_copyright --xunit-file /home/rastic-smartcity/ros2_ws/build/examples_rclcpp_minimal_publisher/test_results/examples_rclcpp_minimal_publisher/copyright.xunit.xml
+
+No problems found, checked 3 files
+
+
+-- run_test.py: return code 0
+-- run_test.py: verify result file '/home/rastic-smartcity/ros2_ws/build/examples_rclcpp_minimal_publisher/test_results/examples_rclcpp_minimal_publisher/copyright.xunit.xml'

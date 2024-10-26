@@ -1,0 +1,8 @@
+source;share/Rastic_seminar/hook/cmake_prefix_path.ps1
+source;share/Rastic_seminar/hook/cmake_prefix_path.dsv
+source;share/Rastic_seminar/hook/cmake_prefix_path.sh
+source;share/Rastic_seminar/local_setup.bash
+source;share/Rastic_seminar/local_setup.dsv
+source;share/Rastic_seminar/local_setup.ps1
+source;share/Rastic_seminar/local_setup.sh
+source;share/Rastic_seminar/local_setup.zsh

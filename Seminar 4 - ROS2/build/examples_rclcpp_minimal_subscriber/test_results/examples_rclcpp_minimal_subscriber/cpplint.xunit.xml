@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite
+  name="examples_rclcpp_minimal_subscriber.cpplint"
+  tests="3"
+  failures="0"
+  errors="0"
+  time="0.063"
+>
+  <testcase
+    name="/home/rastic-smartcity/ros2_ws/src/examples/rclcpp/topics/minimal_subscriber/lambda.cpp"
+    classname="examples_rclcpp_minimal_subscriber.cpplint"/>
+  <testcase
+    name="/home/rastic-smartcity/ros2_ws/src/examples/rclcpp/topics/minimal_subscriber/member_function.cpp"
+    classname="examples_rclcpp_minimal_subscriber.cpplint"/>
+  <testcase
+    name="/home/rastic-smartcity/ros2_ws/src/examples/rclcpp/topics/minimal_subscriber/not_composable.cpp"
+    classname="examples_rclcpp_minimal_subscriber.cpplint"/>
+  <system-out>Checked files:
+* /home/rastic-smartcity/ros2_ws/src/examples/rclcpp/topics/minimal_subscriber/lambda.cpp
+* /home/rastic-smartcity/ros2_ws/src/examples/rclcpp/topics/minimal_subscriber/member_function.cpp
+* /home/rastic-smartcity/ros2_ws/src/examples/rclcpp/topics/minimal_subscriber/not_composable.cpp</system-out>
+</testsuite>

@@ -1,0 +1,26 @@
+[3.764s] Invoking command in '/home/rastic-smartcity/ros2_ws/build/examples_rclpy_minimal_service': PYTHONPATH=/home/rastic-smartcity/ros2_ws/build/examples_rclpy_minimal_service/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rastic-smartcity/ros2_ws/install/examples_rclpy_minimal_service/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/rastic-smartcity/ros2_ws/build/examples_rclpy_minimal_service/build --no-deps symlink_data
+[4.612s] running develop
+[4.870s] running egg_info
+[4.870s] creating examples_rclpy_minimal_service.egg-info
+[4.870s] writing examples_rclpy_minimal_service.egg-info/PKG-INFO
+[4.870s] writing dependency_links to examples_rclpy_minimal_service.egg-info/dependency_links.txt
+[4.871s] writing entry points to examples_rclpy_minimal_service.egg-info/entry_points.txt
+[4.871s] writing requirements to examples_rclpy_minimal_service.egg-info/requires.txt
+[4.871s] writing top-level names to examples_rclpy_minimal_service.egg-info/top_level.txt
+[4.873s] writing manifest file 'examples_rclpy_minimal_service.egg-info/SOURCES.txt'
+[4.931s] reading manifest file 'examples_rclpy_minimal_service.egg-info/SOURCES.txt'
+[4.932s] writing manifest file 'examples_rclpy_minimal_service.egg-info/SOURCES.txt'
+[4.996s] running build_ext
+[4.997s] Creating /home/rastic-smartcity/ros2_ws/install/examples_rclpy_minimal_service/lib/python3.8/site-packages/site.py
+[4.999s] Creating /home/rastic-smartcity/ros2_ws/install/examples_rclpy_minimal_service/lib/python3.8/site-packages/examples-rclpy-minimal-service.egg-link (link to .)
+[5.000s] Installing service script to /home/rastic-smartcity/ros2_ws/install/examples_rclpy_minimal_service/lib/examples_rclpy_minimal_service
+[5.000s] Installing service_member_function script to /home/rastic-smartcity/ros2_ws/install/examples_rclpy_minimal_service/lib/examples_rclpy_minimal_service
+[5.000s] 
+[5.000s] Installed /home/rastic-smartcity/ros2_ws/build/examples_rclpy_minimal_service
+[5.001s] running symlink_data
+[5.001s] creating /home/rastic-smartcity/ros2_ws/install/examples_rclpy_minimal_service/share/ament_index
+[5.001s] creating /home/rastic-smartcity/ros2_ws/install/examples_rclpy_minimal_service/share/ament_index/resource_index
+[5.001s] creating /home/rastic-smartcity/ros2_ws/install/examples_rclpy_minimal_service/share/ament_index/resource_index/packages
+[5.001s] symbolically linking /home/rastic-smartcity/ros2_ws/build/examples_rclpy_minimal_service/resource/examples_rclpy_minimal_service -> /home/rastic-smartcity/ros2_ws/install/examples_rclpy_minimal_service/share/ament_index/resource_index/packages
+[5.001s] symbolically linking /home/rastic-smartcity/ros2_ws/build/examples_rclpy_minimal_service/package.xml -> /home/rastic-smartcity/ros2_ws/install/examples_rclpy_minimal_service/share/examples_rclpy_minimal_service
+[5.050s] Invoked command in '/home/rastic-smartcity/ros2_ws/build/examples_rclpy_minimal_service' returned '0': PYTHONPATH=/home/rastic-smartcity/ros2_ws/build/examples_rclpy_minimal_service/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rastic-smartcity/ros2_ws/install/examples_rclpy_minimal_service/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/rastic-smartcity/ros2_ws/build/examples_rclpy_minimal_service/build --no-deps symlink_data

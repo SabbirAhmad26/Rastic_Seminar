@@ -1,0 +1,20 @@
+[2.554s] Invoking command in '/home/rastic-smartcity/ros2_ws/build/my_package': PYTHONPATH=/home/rastic-smartcity/ros2_ws/build/my_package/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rastic-smartcity/ros2_ws/install/my_package/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/rastic-smartcity/ros2_ws/build/my_package/build --no-deps symlink_data --force
+[3.072s] running develop
+[3.302s] running egg_info
+[3.302s] writing my_package.egg-info/PKG-INFO
+[3.302s] writing dependency_links to my_package.egg-info/dependency_links.txt
+[3.302s] writing entry points to my_package.egg-info/entry_points.txt
+[3.302s] writing requirements to my_package.egg-info/requires.txt
+[3.302s] writing top-level names to my_package.egg-info/top_level.txt
+[3.348s] reading manifest file 'my_package.egg-info/SOURCES.txt'
+[3.348s] writing manifest file 'my_package.egg-info/SOURCES.txt'
+[3.383s] running build_ext
+[3.384s] Creating /home/rastic-smartcity/ros2_ws/install/my_package/lib/python3.8/site-packages/site.py
+[3.386s] Creating /home/rastic-smartcity/ros2_ws/install/my_package/lib/python3.8/site-packages/my-package.egg-link (link to .)
+[3.387s] Installing my_node script to /home/rastic-smartcity/ros2_ws/install/my_package/lib/my_package
+[3.388s] 
+[3.389s] Installed /home/rastic-smartcity/ros2_ws/build/my_package
+[3.389s] running symlink_data
+[3.389s] symbolically linking /home/rastic-smartcity/ros2_ws/build/my_package/resource/my_package -> /home/rastic-smartcity/ros2_ws/install/my_package/share/ament_index/resource_index/packages
+[3.389s] symbolically linking /home/rastic-smartcity/ros2_ws/build/my_package/package.xml -> /home/rastic-smartcity/ros2_ws/install/my_package/share/my_package
+[3.436s] Invoked command in '/home/rastic-smartcity/ros2_ws/build/my_package' returned '0': PYTHONPATH=/home/rastic-smartcity/ros2_ws/build/my_package/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rastic-smartcity/ros2_ws/install/my_package/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/rastic-smartcity/ros2_ws/build/my_package/build --no-deps symlink_data --force

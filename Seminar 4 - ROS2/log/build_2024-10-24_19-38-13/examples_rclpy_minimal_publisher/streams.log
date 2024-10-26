@@ -1,0 +1,44 @@
+[1.839s] Invoking command in '/home/rastic-smartcity/ros2_ws/build/examples_rclpy_minimal_publisher': PYTHONPATH=/home/rastic-smartcity/ros2_ws/build/examples_rclpy_minimal_publisher/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rastic-smartcity/ros2_ws/install/examples_rclpy_minimal_publisher/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --uninstall --editable --build-directory /home/rastic-smartcity/ros2_ws/build/examples_rclpy_minimal_publisher/build
+[2.327s] running develop
+[2.605s] Removing /home/rastic-smartcity/ros2_ws/install/examples_rclpy_minimal_publisher/lib/python3.8/site-packages/examples-rclpy-minimal-publisher.egg-link (link to .)
+[2.667s] Invoked command in '/home/rastic-smartcity/ros2_ws/build/examples_rclpy_minimal_publisher' returned '0': PYTHONPATH=/home/rastic-smartcity/ros2_ws/build/examples_rclpy_minimal_publisher/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rastic-smartcity/ros2_ws/install/examples_rclpy_minimal_publisher/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --uninstall --editable --build-directory /home/rastic-smartcity/ros2_ws/build/examples_rclpy_minimal_publisher/build
+[2.672s] Invoking command in '/home/rastic-smartcity/ros2_ws/src/examples/rclpy/topics/minimal_publisher': PYTHONPATH=/home/rastic-smartcity/ros2_ws/build/examples_rclpy_minimal_publisher/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rastic-smartcity/ros2_ws/install/examples_rclpy_minimal_publisher/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../../../../build/examples_rclpy_minimal_publisher build --build-base /home/rastic-smartcity/ros2_ws/build/examples_rclpy_minimal_publisher/build install --record /home/rastic-smartcity/ros2_ws/build/examples_rclpy_minimal_publisher/install.log --install-scripts $base/lib/examples_rclpy_minimal_publisher --single-version-externally-managed install_data --force
+[3.106s] running egg_info
+[3.108s] writing ../../../../../build/examples_rclpy_minimal_publisher/examples_rclpy_minimal_publisher.egg-info/PKG-INFO
+[3.108s] writing dependency_links to ../../../../../build/examples_rclpy_minimal_publisher/examples_rclpy_minimal_publisher.egg-info/dependency_links.txt
+[3.109s] writing entry points to ../../../../../build/examples_rclpy_minimal_publisher/examples_rclpy_minimal_publisher.egg-info/entry_points.txt
+[3.109s] writing requirements to ../../../../../build/examples_rclpy_minimal_publisher/examples_rclpy_minimal_publisher.egg-info/requires.txt
+[3.109s] writing top-level names to ../../../../../build/examples_rclpy_minimal_publisher/examples_rclpy_minimal_publisher.egg-info/top_level.txt
+[3.177s] reading manifest file '../../../../../build/examples_rclpy_minimal_publisher/examples_rclpy_minimal_publisher.egg-info/SOURCES.txt'
+[3.179s] writing manifest file '../../../../../build/examples_rclpy_minimal_publisher/examples_rclpy_minimal_publisher.egg-info/SOURCES.txt'
+[3.180s] running build
+[3.180s] running build_py
+[3.180s] creating /home/rastic-smartcity/ros2_ws/build/examples_rclpy_minimal_publisher/build
+[3.181s] creating /home/rastic-smartcity/ros2_ws/build/examples_rclpy_minimal_publisher/build/lib
+[3.181s] creating /home/rastic-smartcity/ros2_ws/build/examples_rclpy_minimal_publisher/build/lib/examples_rclpy_minimal_publisher
+[3.181s] copying examples_rclpy_minimal_publisher/publisher_member_function.py -> /home/rastic-smartcity/ros2_ws/build/examples_rclpy_minimal_publisher/build/lib/examples_rclpy_minimal_publisher
+[3.181s] copying examples_rclpy_minimal_publisher/publisher_old_school.py -> /home/rastic-smartcity/ros2_ws/build/examples_rclpy_minimal_publisher/build/lib/examples_rclpy_minimal_publisher
+[3.181s] copying examples_rclpy_minimal_publisher/publisher_local_function.py -> /home/rastic-smartcity/ros2_ws/build/examples_rclpy_minimal_publisher/build/lib/examples_rclpy_minimal_publisher
+[3.182s] copying examples_rclpy_minimal_publisher/__init__.py -> /home/rastic-smartcity/ros2_ws/build/examples_rclpy_minimal_publisher/build/lib/examples_rclpy_minimal_publisher
+[3.182s] running install
+[3.183s] running install_lib
+[3.185s] creating /home/rastic-smartcity/ros2_ws/install/examples_rclpy_minimal_publisher/lib/python3.8/site-packages/examples_rclpy_minimal_publisher
+[3.185s] copying /home/rastic-smartcity/ros2_ws/build/examples_rclpy_minimal_publisher/build/lib/examples_rclpy_minimal_publisher/publisher_member_function.py -> /home/rastic-smartcity/ros2_ws/install/examples_rclpy_minimal_publisher/lib/python3.8/site-packages/examples_rclpy_minimal_publisher
+[3.185s] copying /home/rastic-smartcity/ros2_ws/build/examples_rclpy_minimal_publisher/build/lib/examples_rclpy_minimal_publisher/publisher_old_school.py -> /home/rastic-smartcity/ros2_ws/install/examples_rclpy_minimal_publisher/lib/python3.8/site-packages/examples_rclpy_minimal_publisher
+[3.185s] copying /home/rastic-smartcity/ros2_ws/build/examples_rclpy_minimal_publisher/build/lib/examples_rclpy_minimal_publisher/publisher_local_function.py -> /home/rastic-smartcity/ros2_ws/install/examples_rclpy_minimal_publisher/lib/python3.8/site-packages/examples_rclpy_minimal_publisher
+[3.185s] copying /home/rastic-smartcity/ros2_ws/build/examples_rclpy_minimal_publisher/build/lib/examples_rclpy_minimal_publisher/__init__.py -> /home/rastic-smartcity/ros2_ws/install/examples_rclpy_minimal_publisher/lib/python3.8/site-packages/examples_rclpy_minimal_publisher
+[3.187s] byte-compiling /home/rastic-smartcity/ros2_ws/install/examples_rclpy_minimal_publisher/lib/python3.8/site-packages/examples_rclpy_minimal_publisher/publisher_member_function.py to publisher_member_function.cpython-38.pyc
+[3.189s] byte-compiling /home/rastic-smartcity/ros2_ws/install/examples_rclpy_minimal_publisher/lib/python3.8/site-packages/examples_rclpy_minimal_publisher/publisher_old_school.py to publisher_old_school.cpython-38.pyc
+[3.190s] byte-compiling /home/rastic-smartcity/ros2_ws/install/examples_rclpy_minimal_publisher/lib/python3.8/site-packages/examples_rclpy_minimal_publisher/publisher_local_function.py to publisher_local_function.cpython-38.pyc
+[3.190s] byte-compiling /home/rastic-smartcity/ros2_ws/install/examples_rclpy_minimal_publisher/lib/python3.8/site-packages/examples_rclpy_minimal_publisher/__init__.py to __init__.cpython-38.pyc
+[3.191s] running install_data
+[3.191s] copying resource/examples_rclpy_minimal_publisher -> /home/rastic-smartcity/ros2_ws/install/examples_rclpy_minimal_publisher/share/ament_index/resource_index/packages
+[3.191s] copying package.xml -> /home/rastic-smartcity/ros2_ws/install/examples_rclpy_minimal_publisher/share/examples_rclpy_minimal_publisher
+[3.191s] running install_egg_info
+[3.195s] Copying ../../../../../build/examples_rclpy_minimal_publisher/examples_rclpy_minimal_publisher.egg-info to /home/rastic-smartcity/ros2_ws/install/examples_rclpy_minimal_publisher/lib/python3.8/site-packages/examples_rclpy_minimal_publisher-0.9.4-py3.8.egg-info
+[3.197s] running install_scripts
+[3.234s] Installing publisher_local_function script to /home/rastic-smartcity/ros2_ws/install/examples_rclpy_minimal_publisher/lib/examples_rclpy_minimal_publisher
+[3.234s] Installing publisher_member_function script to /home/rastic-smartcity/ros2_ws/install/examples_rclpy_minimal_publisher/lib/examples_rclpy_minimal_publisher
+[3.235s] Installing publisher_old_school script to /home/rastic-smartcity/ros2_ws/install/examples_rclpy_minimal_publisher/lib/examples_rclpy_minimal_publisher
+[3.235s] writing list of installed files to '/home/rastic-smartcity/ros2_ws/build/examples_rclpy_minimal_publisher/install.log'
+[3.287s] Invoked command in '/home/rastic-smartcity/ros2_ws/src/examples/rclpy/topics/minimal_publisher' returned '0': PYTHONPATH=/home/rastic-smartcity/ros2_ws/build/examples_rclpy_minimal_publisher/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rastic-smartcity/ros2_ws/install/examples_rclpy_minimal_publisher/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../../../../build/examples_rclpy_minimal_publisher build --build-base /home/rastic-smartcity/ros2_ws/build/examples_rclpy_minimal_publisher/build install --record /home/rastic-smartcity/ros2_ws/build/examples_rclpy_minimal_publisher/install.log --install-scripts $base/lib/examples_rclpy_minimal_publisher --single-version-externally-managed install_data --force

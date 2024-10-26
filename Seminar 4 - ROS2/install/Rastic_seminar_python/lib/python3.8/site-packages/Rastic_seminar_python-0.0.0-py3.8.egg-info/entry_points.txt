@@ -1,0 +1,3 @@
+[console_scripts]
+rastic_python = Rastic_seminar_Python.rastic_python:main
+

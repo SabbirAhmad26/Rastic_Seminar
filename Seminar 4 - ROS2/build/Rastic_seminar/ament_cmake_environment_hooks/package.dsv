@@ -1,0 +1,4 @@
+source;share/Rastic_seminar/local_setup.bash
+source;share/Rastic_seminar/local_setup.dsv
+source;share/Rastic_seminar/local_setup.sh
+source;share/Rastic_seminar/local_setup.zsh

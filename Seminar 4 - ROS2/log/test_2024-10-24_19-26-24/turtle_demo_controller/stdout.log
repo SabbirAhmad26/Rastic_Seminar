@@ -1,0 +1,324 @@
+[1m============================= test session starts ==============================[0m
+platform linux -- Python 3.8.10, pytest-4.6.9, py-1.8.1, pluggy-0.13.0
+cachedir: /home/rastic-smartcity/ros2_ws/build/turtle_demo_controller/.pytest_cache
+rootdir: /home/rastic-smartcity/ros2_ws/src/turtle_demo_controller
+plugins: launch-testing-ros-0.11.7, launch-testing-0.10.10, ament-pep257-0.9.8, ament-lint-0.9.8, ament-xmllint-0.9.8, ament-copyright-0.9.8, ament-flake8-0.9.8, colcon-core-0.18.1, cov-2.8.1
+[1mcollecting ... [0m[1m
+collected 3 items                                                              [0m
+
+test/test_copyright.py [33ms[0m[36m                                                 [ 33%][0m
+test/test_flake8.py [31mF[0m[36m                                                    [ 66%][0m
+test/test_pep257.py [32m.[0m[36m                                                    [100%][0m
+
+=================================== FAILURES ===================================
+[31m[1m_________________________________ test_flake8 __________________________________[0m
+[1m[31mtest/test_flake8.py[0m:23: in test_flake8
+[1m    assert rc == 0, \[0m
+[1m[31mE   AssertionError: Found 55 code style errors / warnings:[0m
+[1m[31mE     ./setup.py:26:2: W292 no newline at end of file[0m
+[1m[31mE     ./turtle_demo_controller/turtle_controller.py:8:1: E302 expected 2 blank lines, found 1[0m
+[1m[31mE     ./turtle_demo_controller/turtle_controller.py:19:18: W291 trailing whitespace[0m
+[1m[31mE     ./turtle_demo_controller/turtle_controller.py:20:29: W291 trailing whitespace[0m
+[1m[31mE     ./turtle_demo_controller/turtle_controller.py:21:32: W291 trailing whitespace[0m
+[1m[31mE     ./turtle_demo_controller/turtle_controller.py:29:1: W293 blank line contains whitespace[0m
+[1m[31mE     ./turtle_demo_controller/turtle_controller.py:33:1: W293 blank line contains whitespace[0m
+[1m[31mE     ./turtle_demo_controller/turtle_controller.py:36:1: W293 blank line contains whitespace[0m
+[1m[31mE     ./turtle_demo_controller/turtle_controller.py:42:1: W293 blank line contains whitespace[0m
+[1m[31mE     ./turtle_demo_controller/turtle_controller.py:45:1: W293 blank line contains whitespace[0m
+[1m[31mE     ./turtle_demo_controller/turtle_controller.py:51:1: W293 blank line contains whitespace[0m
+[1m[31mE     ./turtle_demo_controller/turtle_controller.py:53:100: E501 line too long (129 > 99 characters)[0m
+[1m[31mE     ./turtle_demo_controller/turtle_controller.py:58:1: W293 blank line contains whitespace[0m
+[1m[31mE     ./turtle_demo_controller/turtle_controller.py:63:54: W291 trailing whitespace[0m
+[1m[31mE     ./turtle_demo_controller/turtle_controller.py:70:100: E501 line too long (113 > 99 characters)[0m
+[1m[31mE     ./turtle_demo_controller/turtle_controller.py:71:1: W293 blank line contains whitespace[0m
+[1m[31mE     ./turtle_demo_controller/turtle_controller.py:76:1: W293 blank line contains whitespace[0m
+[1m[31mE     ./turtle_demo_controller/turtle_controller.py:80:1: E302 expected 2 blank lines, found 1[0m
+[1m[31mE     ./turtle_demo_controller/turtle_controller.py:87:1: E305 expected 2 blank lines after class or function definition, found 1[0m
+[1m[31mE     ./turtle_demo_controller/turtle_controller.py:89:1: W391 blank line at end of file[0m
+[1m[31mE     ./turtle_demo_controller/turtle_controller_with_pid_implimentation.py:8:1: E302 expected 2 blank lines, found 1[0m
+[1m[31mE     ./turtle_demo_controller/turtle_controller_with_pid_implimentation.py:12:1: W293 blank line contains whitespace[0m
+[1m[31mE     ./turtle_demo_controller/turtle_controller_with_pid_implimentation.py:14:9: E303 too many blank lines (2)[0m
+[1m[31mE     ./turtle_demo_controller/turtle_controller_with_pid_implimentation.py:16:1: W293 blank line contains whitespace[0m
+[1m[31mE     ./turtle_demo_controller/turtle_controller_with_pid_implimentation.py:18:1: W293 blank line contains whitespace[0m
+[1m[31mE     ./turtle_demo_controller/turtle_controller_with_pid_implimentation.py:20:9: E303 too many blank lines (4)[0m
+[1m[31mE     ./turtle_demo_controller/turtle_controller_with_pid_implimentation.py:25:9: E265 block comment should start with '# '[0m
+[1m[31mE     ./turtle_demo_controller/turtle_controller_with_pid_implimentation.py:25:100: E501 line too long (103 > 99 characters)[0m
+[1m[31mE     ./turtle_demo_controller/turtle_controller_with_pid_implimentation.py:26:1: W293 blank line contains whitespace[0m
+[1m[31mE     ./turtle_demo_controller/turtle_controller_with_pid_implimentation.py:35:1: W293 blank line contains whitespace[0m
+[1m[31mE     ./turtle_demo_controller/turtle_controller_with_pid_implimentation.py:37:1: W293 blank line contains whitespace[0m
+[1m[31mE     ./turtle_demo_controller/turtle_controller_with_pid_implimentation.py:38:9: E265 block comment should start with '# '[0m
+[1m[31mE     ./turtle_demo_controller/turtle_controller_with_pid_implimentation.py:42:1: W293 blank line contains whitespace[0m
+[1m[31mE     ./turtle_demo_controller/turtle_controller_with_pid_implimentation.py:45:1: W293 blank line contains whitespace[0m
+[1m[31mE     ./turtle_demo_controller/turtle_controller_with_pid_implimentation.py:51:9: E265 block comment should start with '# '[0m
+[1m[31mE     ./turtle_demo_controller/turtle_controller_with_pid_implimentation.py:51:100: E501 line too long (117 > 99 characters)[0m
+[1m[31mE     ./turtle_demo_controller/turtle_controller_with_pid_implimentation.py:60:1: W293 blank line contains whitespace[0m
+[1m[31mE     ./turtle_demo_controller/turtle_controller_with_pid_implimentation.py:61:1: W293 blank line contains whitespace[0m
+[1m[31mE     ./turtle_demo_controller/turtle_controller_with_pid_implimentation.py:62:1: W293 blank line contains whitespace[0m
+[1m[31mE     ./turtle_demo_controller/turtle_controller_with_pid_implimentation.py:63:9: E303 too many blank lines (3)[0m
+[1m[31mE     ./turtle_demo_controller/turtle_controller_with_pid_implimentation.py:67:1: W293 blank line contains whitespace[0m
+[1m[31mE     ./turtle_demo_controller/turtle_controller_with_pid_implimentation.py:69:9: E303 too many blank lines (2)[0m
+[1m[31mE     ./turtle_demo_controller/turtle_controller_with_pid_implimentation.py:72:9: E265 block comment should start with '# '[0m
+[1m[31mE     ./turtle_demo_controller/turtle_controller_with_pid_implimentation.py:73:28: E261 at least two spaces before inline comment[0m
+[1m[31mE     ./turtle_demo_controller/turtle_controller_with_pid_implimentation.py:73:29: E262 inline comment should start with '# '[0m
+[1m[31mE     ./turtle_demo_controller/turtle_controller_with_pid_implimentation.py:78:22: W291 trailing whitespace[0m
+[1m[31mE     ./turtle_demo_controller/turtle_controller_with_pid_implimentation.py:81:9: E303 too many blank lines (2)[0m
+[1m[31mE     ./turtle_demo_controller/turtle_controller_with_pid_implimentation.py:82:24: E225 missing whitespace around operator[0m
+[1m[31mE     ./turtle_demo_controller/turtle_controller_with_pid_implimentation.py:82:29: E261 at least two spaces before inline comment[0m
+[1m[31mE     ./turtle_demo_controller/turtle_controller_with_pid_implimentation.py:82:30: E262 inline comment should start with '# '[0m
+[1m[31mE     ./turtle_demo_controller/turtle_controller_with_pid_implimentation.py:85:1: W293 blank line contains whitespace[0m
+[1m[31mE     ./turtle_demo_controller/turtle_controller_with_pid_implimentation.py:88:22: W291 trailing whitespace[0m
+[1m[31mE     ./turtle_demo_controller/turtle_controller_with_pid_implimentation.py:94:9: E265 block comment should start with '# '[0m
+[1m[31mE     ./turtle_demo_controller/turtle_controller_with_pid_implimentation.py:100:1: E302 expected 2 blank lines, found 1[0m
+[1m[31mE     ./turtle_demo_controller/turtle_controller_with_pid_implimentation.py:107:1: E305 expected 2 blank lines after class or function definition, found 1[0m
+[1m[31mE   assert 1 == 0[0m
+----------------------------- Captured stdout call -----------------------------
+
+./setup.py:26:2: W292 no newline at end of file
+) ^
+
+./turtle_demo_controller/turtle_controller.py:8:1: E302 expected 2 blank lines, found 1
+class TurtleControllerNode(Node):
+^
+
+./turtle_demo_controller/turtle_controller.py:19:18: W291 trailing whitespace
+            Pose, 
+                 ^
+
+./turtle_demo_controller/turtle_controller.py:20:29: W291 trailing whitespace
+            "/turtle1/pose", 
+                            ^
+
+./turtle_demo_controller/turtle_controller.py:21:32: W291 trailing whitespace
+            self.pose_callback, 
+                               ^
+
+./turtle_demo_controller/turtle_controller.py:29:1: W293 blank line contains whitespace
+        
+^
+
+./turtle_demo_controller/turtle_controller.py:33:1: W293 blank line contains whitespace
+        
+^
+
+./turtle_demo_controller/turtle_controller.py:36:1: W293 blank line contains whitespace
+        
+^
+
+./turtle_demo_controller/turtle_controller.py:42:1: W293 blank line contains whitespace
+        
+^
+
+./turtle_demo_controller/turtle_controller.py:45:1: W293 blank line contains whitespace
+        
+^
+
+./turtle_demo_controller/turtle_controller.py:51:1: W293 blank line contains whitespace
+        
+^
+
+./turtle_demo_controller/turtle_controller.py:53:100: E501 line too long (129 > 99 characters)
+        self.get_logger().info(f"Desired Heading: {desired_heading}, Current Angle: {msg.theta}, Heading Error: {heading_error}")
+                                                                                                   ^
+
+./turtle_demo_controller/turtle_controller.py:58:1: W293 blank line contains whitespace
+        
+^
+
+./turtle_demo_controller/turtle_controller.py:63:54: W291 trailing whitespace
+        angular_velocity = Kp_angular * heading_error  
+                                                     ^
+
+./turtle_demo_controller/turtle_controller.py:70:100: E501 line too long (113 > 99 characters)
+        self.get_logger().info(f"Publishing Velocities - Linear: {linear_velocity}, Angular: {angular_velocity}")
+                                                                                                   ^
+
+./turtle_demo_controller/turtle_controller.py:71:1: W293 blank line contains whitespace
+        
+^
+
+./turtle_demo_controller/turtle_controller.py:76:1: W293 blank line contains whitespace
+        
+^
+
+./turtle_demo_controller/turtle_controller.py:80:1: E302 expected 2 blank lines, found 1
+def main(args=None):
+^
+
+./turtle_demo_controller/turtle_controller.py:87:1: E305 expected 2 blank lines after class or function definition, found 1
+if __name__ == '__main__':
+^
+
+./turtle_demo_controller/turtle_controller.py:89:1: W391 blank line at end of file
+
+^
+
+./turtle_demo_controller/turtle_controller_with_pid_implimentation.py:8:1: E302 expected 2 blank lines, found 1
+class Controller_Node(Node):
+^
+
+./turtle_demo_controller/turtle_controller_with_pid_implimentation.py:12:1: W293 blank line contains whitespace
+        
+^
+
+./turtle_demo_controller/turtle_controller_with_pid_implimentation.py:14:9: E303 too many blank lines (2)
+        self.desired_x = 9.0  # Adjust as needed
+        ^
+
+./turtle_demo_controller/turtle_controller_with_pid_implimentation.py:16:1: W293 blank line contains whitespace
+        
+^
+
+./turtle_demo_controller/turtle_controller_with_pid_implimentation.py:18:1: W293 blank line contains whitespace
+      
+^
+
+./turtle_demo_controller/turtle_controller_with_pid_implimentation.py:20:9: E303 too many blank lines (4)
+        # Publisher and Subscriber
+        ^
+
+./turtle_demo_controller/turtle_controller_with_pid_implimentation.py:25:9: E265 block comment should start with '# '
+        #self.get_logger().info(f"Current x={msg.x} current y={msg.y} and current angle = {msg.theta}")
+        ^
+
+./turtle_demo_controller/turtle_controller_with_pid_implimentation.py:25:100: E501 line too long (103 > 99 characters)
+        #self.get_logger().info(f"Current x={msg.x} current y={msg.y} and current angle = {msg.theta}")
+                                                                                                   ^
+
+./turtle_demo_controller/turtle_controller_with_pid_implimentation.py:26:1: W293 blank line contains whitespace
+       
+^
+
+./turtle_demo_controller/turtle_controller_with_pid_implimentation.py:35:1: W293 blank line contains whitespace
+        
+^
+
+./turtle_demo_controller/turtle_controller_with_pid_implimentation.py:37:1: W293 blank line contains whitespace
+        
+^
+
+./turtle_demo_controller/turtle_controller_with_pid_implimentation.py:38:9: E265 block comment should start with '# '
+        #self.get_logger().info(f"Error in x {err_x} and error in y {err_y}")
+        ^
+
+./turtle_demo_controller/turtle_controller_with_pid_implimentation.py:42:1: W293 blank line contains whitespace
+        
+^
+
+./turtle_demo_controller/turtle_controller_with_pid_implimentation.py:45:1: W293 blank line contains whitespace
+       
+^
+
+./turtle_demo_controller/turtle_controller_with_pid_implimentation.py:51:9: E265 block comment should start with '# '
+        #self.get_logger().info(f"Desired Angle = {desired_theta} current angle {msg.theta} Error angle {err_theta}")
+        ^
+
+./turtle_demo_controller/turtle_controller_with_pid_implimentation.py:51:100: E501 line too long (117 > 99 characters)
+        #self.get_logger().info(f"Desired Angle = {desired_theta} current angle {msg.theta} Error angle {err_theta}")
+                                                                                                   ^
+
+./turtle_demo_controller/turtle_controller_with_pid_implimentation.py:60:1: W293 blank line contains whitespace
+        
+^
+
+./turtle_demo_controller/turtle_controller_with_pid_implimentation.py:61:1: W293 blank line contains whitespace
+        
+^
+
+./turtle_demo_controller/turtle_controller_with_pid_implimentation.py:62:1: W293 blank line contains whitespace
+        
+^
+
+./turtle_demo_controller/turtle_controller_with_pid_implimentation.py:63:9: E303 too many blank lines (3)
+        integral_dist += err_dist
+        ^
+
+./turtle_demo_controller/turtle_controller_with_pid_implimentation.py:67:1: W293 blank line contains whitespace
+        
+^
+
+./turtle_demo_controller/turtle_controller_with_pid_implimentation.py:69:9: E303 too many blank lines (2)
+        # TODO: Add integral and derivative calculations for complete PID
+        ^
+
+./turtle_demo_controller/turtle_controller_with_pid_implimentation.py:72:9: E265 block comment should start with '# '
+        #l_v = Kp_dist * abs(err_x) # + Ki_dist * integral_dist + Kd_dist * derivative_dist
+        ^
+
+./turtle_demo_controller/turtle_controller_with_pid_implimentation.py:73:28: E261 at least two spaces before inline comment
+        if err_dist >= 0.1: #checking whether error distance within tolerence
+                           ^
+
+./turtle_demo_controller/turtle_controller_with_pid_implimentation.py:73:29: E262 inline comment should start with '# '
+        if err_dist >= 0.1: #checking whether error distance within tolerence
+                            ^
+
+./turtle_demo_controller/turtle_controller_with_pid_implimentation.py:78:22: W291 trailing whitespace
+            l_v = 0.0    
+                     ^
+
+./turtle_demo_controller/turtle_controller_with_pid_implimentation.py:81:9: E303 too many blank lines (2)
+        # PID control for angular velocity
+        ^
+
+./turtle_demo_controller/turtle_controller_with_pid_implimentation.py:82:24: E225 missing whitespace around operator
+        if err_theta >=0.08: #checking whether heading angle error within tolerence
+                       ^
+
+./turtle_demo_controller/turtle_controller_with_pid_implimentation.py:82:29: E261 at least two spaces before inline comment
+        if err_theta >=0.08: #checking whether heading angle error within tolerence
+                            ^
+
+./turtle_demo_controller/turtle_controller_with_pid_implimentation.py:82:30: E262 inline comment should start with '# '
+        if err_theta >=0.08: #checking whether heading angle error within tolerence
+                             ^
+
+./turtle_demo_controller/turtle_controller_with_pid_implimentation.py:85:1: W293 blank line contains whitespace
+            
+^
+
+./turtle_demo_controller/turtle_controller_with_pid_implimentation.py:88:22: W291 trailing whitespace
+            a_v = 0.0      
+                     ^
+
+./turtle_demo_controller/turtle_controller_with_pid_implimentation.py:94:9: E265 block comment should start with '# '
+        #self.get_logger().info(f"Commanding liner ={l_v} and angular ={a_v}")
+        ^
+
+./turtle_demo_controller/turtle_controller_with_pid_implimentation.py:100:1: E302 expected 2 blank lines, found 1
+def main(args=None):
+^
+
+./turtle_demo_controller/turtle_controller_with_pid_implimentation.py:107:1: E305 expected 2 blank lines after class or function definition, found 1
+if __name__ == '__main__':
+^
+
+1     E225 missing whitespace around operator
+2     E261 at least two spaces before inline comment
+2     E262 inline comment should start with '# '
+5     E265 block comment should start with '# '
+4     E302 expected 2 blank lines, found 1
+5     E303 too many blank lines (2)
+2     E305 expected 2 blank lines after class or function definition, found 1
+4     E501 line too long (129 > 99 characters)
+6     W291 trailing whitespace
+1     W292 no newline at end of file
+22    W293 blank line contains whitespace
+1     W391 blank line at end of file
+
+7 files checked
+55 errors
+
+'E'-type errors: 25
+'W'-type errors: 30
+
+Checked files:
+
+* ./setup.py
+* ./turtle_demo_controller/turtle_controller.py
+* ./turtle_demo_controller/turtle_controller_with_pid_implimentation.py
+* ./turtle_demo_controller/__init__.py
+* ./test/test_copyright.py
+* ./test/test_pep257.py
+* ./test/test_flake8.py
+- generated xml file: /home/rastic-smartcity/ros2_ws/build/turtle_demo_controller/pytest.xml -
+[31m[1m========== 1 failed, 1 passed, 1 skipped, 1 warnings in 0.25 seconds ===========[0m

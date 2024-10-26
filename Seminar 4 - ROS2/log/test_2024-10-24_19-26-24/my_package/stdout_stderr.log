@@ -1,0 +1,28 @@
+[1m============================= test session starts ==============================[0m
+platform linux -- Python 3.8.10, pytest-4.6.9, py-1.8.1, pluggy-0.13.0
+cachedir: /home/rastic-smartcity/ros2_ws/build/my_package/.pytest_cache
+rootdir: /home/rastic-smartcity/ros2_ws/src/my_package
+plugins: launch-testing-ros-0.11.7, launch-testing-0.10.10, ament-pep257-0.9.8, ament-lint-0.9.8, ament-xmllint-0.9.8, ament-copyright-0.9.8, ament-flake8-0.9.8, colcon-core-0.18.1, cov-2.8.1
+[1mcollecting ... [0m[1m
+collected 3 items                                                              [0m
+
+test/test_copyright.py [31mF[0m[36m                                                 [ 33%][0m
+test/test_flake8.py [32m.[0m[36m                                                    [ 66%][0m
+test/test_pep257.py [32m.[0m[36m                                                    [100%][0m
+
+=================================== FAILURES ===================================
+[31m[1m________________________________ test_copyright ________________________________[0m
+[1m[31mtest/test_copyright.py[0m:23: in test_copyright
+[1m    assert rc == 0, 'Found errors'[0m
+[1m[31mE   AssertionError: Found errors[0m
+[1m[31mE   assert 1 == 0[0m
+----------------------------- Captured stderr call -----------------------------
+my_package/my_node.py: could not find copyright notice
+1 errors, checked 5 files
+- generated xml file: /home/rastic-smartcity/ros2_ws/build/my_package/pytest.xml -
+[31m[1m================ 1 failed, 2 passed, 1 warnings in 0.23 seconds ================[0m
+[33m=============================== warnings summary ===============================[0m
+/usr/lib/python3/dist-packages/pydocstyle/config.py:6
+  Warning: Using or importing the ABCs from 'collections' instead of from 'collections.abc' is deprecated since Python 3.3, and in 3.10 it will stop working
+
+-- Docs: https://docs.pytest.org/en/latest/warnings.html

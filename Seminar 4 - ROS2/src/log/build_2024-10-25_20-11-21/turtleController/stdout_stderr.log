@@ -1,0 +1,31 @@
+running egg_info
+creating ../build/turtleController/turtleController.egg-info
+writing ../build/turtleController/turtleController.egg-info/PKG-INFO
+writing dependency_links to ../build/turtleController/turtleController.egg-info/dependency_links.txt
+writing entry points to ../build/turtleController/turtleController.egg-info/entry_points.txt
+writing requirements to ../build/turtleController/turtleController.egg-info/requires.txt
+writing top-level names to ../build/turtleController/turtleController.egg-info/top_level.txt
+writing manifest file '../build/turtleController/turtleController.egg-info/SOURCES.txt'
+reading manifest file '../build/turtleController/turtleController.egg-info/SOURCES.txt'
+writing manifest file '../build/turtleController/turtleController.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/rastic-smartcity/ros2_ws/src/build/turtleController/build
+creating /home/rastic-smartcity/ros2_ws/src/build/turtleController/build/lib
+creating /home/rastic-smartcity/ros2_ws/src/build/turtleController/build/lib/turtleController
+copying turtleController/__init__.py -> /home/rastic-smartcity/ros2_ws/src/build/turtleController/build/lib/turtleController
+running install
+running install_lib
+creating /home/rastic-smartcity/ros2_ws/src/install/turtleController/lib/python3.8/site-packages/turtleController
+copying /home/rastic-smartcity/ros2_ws/src/build/turtleController/build/lib/turtleController/__init__.py -> /home/rastic-smartcity/ros2_ws/src/install/turtleController/lib/python3.8/site-packages/turtleController
+byte-compiling /home/rastic-smartcity/ros2_ws/src/install/turtleController/lib/python3.8/site-packages/turtleController/__init__.py to __init__.cpython-38.pyc
+running install_data
+creating /home/rastic-smartcity/ros2_ws/src/install/turtleController/share/ament_index
+creating /home/rastic-smartcity/ros2_ws/src/install/turtleController/share/ament_index/resource_index
+creating /home/rastic-smartcity/ros2_ws/src/install/turtleController/share/ament_index/resource_index/packages
+copying resource/turtleController -> /home/rastic-smartcity/ros2_ws/src/install/turtleController/share/ament_index/resource_index/packages
+copying package.xml -> /home/rastic-smartcity/ros2_ws/src/install/turtleController/share/turtleController
+running install_egg_info
+Copying ../build/turtleController/turtleController.egg-info to /home/rastic-smartcity/ros2_ws/src/install/turtleController/lib/python3.8/site-packages/turtleController-0.0.0-py3.8.egg-info
+running install_scripts
+writing list of installed files to '/home/rastic-smartcity/ros2_ws/src/build/turtleController/install.log'

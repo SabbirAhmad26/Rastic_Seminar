@@ -1,0 +1,23 @@
+[3.123s] Invoking command in '/home/rastic-smartcity/ros2_ws/src/examples/rclpy/actions/minimal_action_client': PYTHONPATH=/home/rastic-smartcity/ros2_ws/build/examples_rclpy_minimal_action_client/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rastic-smartcity/ros2_ws/install/examples_rclpy_minimal_action_client/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../../../../build/examples_rclpy_minimal_action_client build --build-base /home/rastic-smartcity/ros2_ws/build/examples_rclpy_minimal_action_client/build install --record /home/rastic-smartcity/ros2_ws/build/examples_rclpy_minimal_action_client/install.log --install-scripts $base/lib/examples_rclpy_minimal_action_client --single-version-externally-managed install_data
+[3.378s] running egg_info
+[3.378s] writing ../../../../../build/examples_rclpy_minimal_action_client/examples_rclpy_minimal_action_client.egg-info/PKG-INFO
+[3.378s] writing dependency_links to ../../../../../build/examples_rclpy_minimal_action_client/examples_rclpy_minimal_action_client.egg-info/dependency_links.txt
+[3.379s] writing entry points to ../../../../../build/examples_rclpy_minimal_action_client/examples_rclpy_minimal_action_client.egg-info/entry_points.txt
+[3.379s] writing requirements to ../../../../../build/examples_rclpy_minimal_action_client/examples_rclpy_minimal_action_client.egg-info/requires.txt
+[3.379s] writing top-level names to ../../../../../build/examples_rclpy_minimal_action_client/examples_rclpy_minimal_action_client.egg-info/top_level.txt
+[3.418s] reading manifest file '../../../../../build/examples_rclpy_minimal_action_client/examples_rclpy_minimal_action_client.egg-info/SOURCES.txt'
+[3.419s] writing manifest file '../../../../../build/examples_rclpy_minimal_action_client/examples_rclpy_minimal_action_client.egg-info/SOURCES.txt'
+[3.419s] running build
+[3.420s] running build_py
+[3.420s] running install
+[3.421s] running install_lib
+[3.423s] running install_data
+[3.423s] running install_egg_info
+[3.425s] removing '/home/rastic-smartcity/ros2_ws/install/examples_rclpy_minimal_action_client/lib/python3.8/site-packages/examples_rclpy_minimal_action_client-0.9.4-py3.8.egg-info' (and everything under it)
+[3.426s] Copying ../../../../../build/examples_rclpy_minimal_action_client/examples_rclpy_minimal_action_client.egg-info to /home/rastic-smartcity/ros2_ws/install/examples_rclpy_minimal_action_client/lib/python3.8/site-packages/examples_rclpy_minimal_action_client-0.9.4-py3.8.egg-info
+[3.426s] running install_scripts
+[3.448s] Installing client script to /home/rastic-smartcity/ros2_ws/install/examples_rclpy_minimal_action_client/lib/examples_rclpy_minimal_action_client
+[3.448s] Installing client_cancel script to /home/rastic-smartcity/ros2_ws/install/examples_rclpy_minimal_action_client/lib/examples_rclpy_minimal_action_client
+[3.448s] Installing client_not_composable script to /home/rastic-smartcity/ros2_ws/install/examples_rclpy_minimal_action_client/lib/examples_rclpy_minimal_action_client
+[3.449s] writing list of installed files to '/home/rastic-smartcity/ros2_ws/build/examples_rclpy_minimal_action_client/install.log'
+[3.700s] Invoked command in '/home/rastic-smartcity/ros2_ws/src/examples/rclpy/actions/minimal_action_client' returned '0': PYTHONPATH=/home/rastic-smartcity/ros2_ws/build/examples_rclpy_minimal_action_client/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rastic-smartcity/ros2_ws/install/examples_rclpy_minimal_action_client/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../../../../build/examples_rclpy_minimal_action_client build --build-base /home/rastic-smartcity/ros2_ws/build/examples_rclpy_minimal_action_client/build install --record /home/rastic-smartcity/ros2_ws/build/examples_rclpy_minimal_action_client/install.log --install-scripts $base/lib/examples_rclpy_minimal_action_client --single-version-externally-managed install_data

@@ -1,0 +1,21 @@
+[0.553s] Invoking command in '/home/rastic-smartcity/ros2_ws/src/examples/rclpy/services/minimal_client': AMENT_PREFIX_PATH=/home/rastic-smartcity/ros2_ws/install/examples_rclpy_minimal_client:${AMENT_PREFIX_PATH} PYTEST_ADDOPTS=--tb=short --junit-xml=/home/rastic-smartcity/ros2_ws/build/examples_rclpy_minimal_client/pytest.xml --junit-prefix=examples_rclpy_minimal_client -o cache_dir=/home/rastic-smartcity/ros2_ws/build/examples_rclpy_minimal_client/.pytest_cache PYTHONDONTWRITEBYTECODE=1 PYTHONPATH=/home/rastic-smartcity/ros2_ws/build/examples_rclpy_minimal_client:/home/rastic-smartcity/ros2_ws/install/examples_rclpy_minimal_client/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -m pytest
+[2.612s] [1m============================= test session starts ==============================[0m
+[2.612s] platform linux -- Python 3.8.10, pytest-4.6.9, py-1.8.1, pluggy-0.13.0
+[2.612s] cachedir: /home/rastic-smartcity/ros2_ws/build/examples_rclpy_minimal_client/.pytest_cache
+[2.612s] rootdir: /home/rastic-smartcity/ros2_ws/src/examples/rclpy, inifile: pytest.ini
+[2.613s] plugins: launch-testing-ros-0.11.7, launch-testing-0.10.10, ament-pep257-0.9.8, ament-lint-0.9.8, ament-xmllint-0.9.8, ament-copyright-0.9.8, ament-flake8-0.9.8, colcon-core-0.18.1, cov-2.8.1
+[2.613s] [1mcollecting ... [0m[1m
+[2.613s] collected 3 items                                                              [0m
+[2.613s] 
+[2.613s] test/test_copyright.py [32m.[0m[36m                                                 [ 33%][0m
+[2.614s] test/test_flake8.py [32m.[0m[36m                                                    [ 66%][0m
+[2.614s] test/test_pep257.py [32m.[0m[36m                                                    [100%][0m
+[2.615s] - generated xml file: /home/rastic-smartcity/ros2_ws/build/examples_rclpy_minimal_client/pytest.xml -
+[2.615s] [33m[1m===================== 3 passed, 1 warnings in 0.59 seconds =====================[0m
+[2.617s] 
+[2.617s] [33m=============================== warnings summary ===============================[0m
+[2.618s] /usr/lib/python3/dist-packages/pydocstyle/config.py:6
+[2.618s]   Warning: Using or importing the ABCs from 'collections' instead of from 'collections.abc' is deprecated since Python 3.3, and in 3.10 it will stop working
+[2.618s] 
+[2.619s] -- Docs: https://docs.pytest.org/en/latest/warnings.html
+[2.648s] Invoked command in '/home/rastic-smartcity/ros2_ws/src/examples/rclpy/services/minimal_client' returned '0': AMENT_PREFIX_PATH=/home/rastic-smartcity/ros2_ws/install/examples_rclpy_minimal_client:${AMENT_PREFIX_PATH} PYTEST_ADDOPTS=--tb=short --junit-xml=/home/rastic-smartcity/ros2_ws/build/examples_rclpy_minimal_client/pytest.xml --junit-prefix=examples_rclpy_minimal_client -o cache_dir=/home/rastic-smartcity/ros2_ws/build/examples_rclpy_minimal_client/.pytest_cache PYTHONDONTWRITEBYTECODE=1 PYTHONPATH=/home/rastic-smartcity/ros2_ws/build/examples_rclpy_minimal_client:/home/rastic-smartcity/ros2_ws/install/examples_rclpy_minimal_client/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -m pytest

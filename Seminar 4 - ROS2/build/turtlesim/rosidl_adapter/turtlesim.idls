@@ -1,0 +1,8 @@
+/home/rastic-smartcity/ros2_ws/build/turtlesim/rosidl_adapter/turtlesim:action/RotateAbsolute.idl
+/home/rastic-smartcity/ros2_ws/build/turtlesim/rosidl_adapter/turtlesim:msg/Color.idl
+/home/rastic-smartcity/ros2_ws/build/turtlesim/rosidl_adapter/turtlesim:msg/Pose.idl
+/home/rastic-smartcity/ros2_ws/build/turtlesim/rosidl_adapter/turtlesim:srv/Kill.idl
+/home/rastic-smartcity/ros2_ws/build/turtlesim/rosidl_adapter/turtlesim:srv/SetPen.idl
+/home/rastic-smartcity/ros2_ws/build/turtlesim/rosidl_adapter/turtlesim:srv/Spawn.idl
+/home/rastic-smartcity/ros2_ws/build/turtlesim/rosidl_adapter/turtlesim:srv/TeleportAbsolute.idl
+/home/rastic-smartcity/ros2_ws/build/turtlesim/rosidl_adapter/turtlesim:srv/TeleportRelative.idl

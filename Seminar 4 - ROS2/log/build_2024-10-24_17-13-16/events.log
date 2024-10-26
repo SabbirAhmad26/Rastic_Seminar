@@ -1,0 +1,5 @@
+[0.000000] (-) TimerEvent: {}
+[0.000535] (-) JobUnselected: {'identifier': 'Rastic_seminar'}
+[0.000591] (-) JobUnselected: {'identifier': 'Rastic_seminar_python'}
+[0.000613] (-) JobUnselected: {'identifier': 'turtlesim'}
+[0.001137] (-) EventReactorShutdown: {}

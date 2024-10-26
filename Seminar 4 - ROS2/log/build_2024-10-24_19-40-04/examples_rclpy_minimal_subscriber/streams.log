@@ -1,0 +1,23 @@
+[2.629s] Invoking command in '/home/rastic-smartcity/ros2_ws/src/examples/rclpy/topics/minimal_subscriber': PYTHONPATH=/home/rastic-smartcity/ros2_ws/build/examples_rclpy_minimal_subscriber/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rastic-smartcity/ros2_ws/install/examples_rclpy_minimal_subscriber/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../../../../build/examples_rclpy_minimal_subscriber build --build-base /home/rastic-smartcity/ros2_ws/build/examples_rclpy_minimal_subscriber/build install --record /home/rastic-smartcity/ros2_ws/build/examples_rclpy_minimal_subscriber/install.log --install-scripts $base/lib/examples_rclpy_minimal_subscriber --single-version-externally-managed install_data
+[3.028s] running egg_info
+[3.029s] writing ../../../../../build/examples_rclpy_minimal_subscriber/examples_rclpy_minimal_subscriber.egg-info/PKG-INFO
+[3.029s] writing dependency_links to ../../../../../build/examples_rclpy_minimal_subscriber/examples_rclpy_minimal_subscriber.egg-info/dependency_links.txt
+[3.029s] writing entry points to ../../../../../build/examples_rclpy_minimal_subscriber/examples_rclpy_minimal_subscriber.egg-info/entry_points.txt
+[3.029s] writing requirements to ../../../../../build/examples_rclpy_minimal_subscriber/examples_rclpy_minimal_subscriber.egg-info/requires.txt
+[3.030s] writing top-level names to ../../../../../build/examples_rclpy_minimal_subscriber/examples_rclpy_minimal_subscriber.egg-info/top_level.txt
+[3.068s] reading manifest file '../../../../../build/examples_rclpy_minimal_subscriber/examples_rclpy_minimal_subscriber.egg-info/SOURCES.txt'
+[3.069s] writing manifest file '../../../../../build/examples_rclpy_minimal_subscriber/examples_rclpy_minimal_subscriber.egg-info/SOURCES.txt'
+[3.069s] running build
+[3.069s] running build_py
+[3.069s] running install
+[3.070s] running install_lib
+[3.072s] running install_data
+[3.072s] running install_egg_info
+[3.074s] removing '/home/rastic-smartcity/ros2_ws/install/examples_rclpy_minimal_subscriber/lib/python3.8/site-packages/examples_rclpy_minimal_subscriber-0.9.4-py3.8.egg-info' (and everything under it)
+[3.074s] Copying ../../../../../build/examples_rclpy_minimal_subscriber/examples_rclpy_minimal_subscriber.egg-info to /home/rastic-smartcity/ros2_ws/install/examples_rclpy_minimal_subscriber/lib/python3.8/site-packages/examples_rclpy_minimal_subscriber-0.9.4-py3.8.egg-info
+[3.075s] running install_scripts
+[3.096s] Installing subscriber_lambda script to /home/rastic-smartcity/ros2_ws/install/examples_rclpy_minimal_subscriber/lib/examples_rclpy_minimal_subscriber
+[3.096s] Installing subscriber_member_function script to /home/rastic-smartcity/ros2_ws/install/examples_rclpy_minimal_subscriber/lib/examples_rclpy_minimal_subscriber
+[3.096s] Installing subscriber_old_school script to /home/rastic-smartcity/ros2_ws/install/examples_rclpy_minimal_subscriber/lib/examples_rclpy_minimal_subscriber
+[3.097s] writing list of installed files to '/home/rastic-smartcity/ros2_ws/build/examples_rclpy_minimal_subscriber/install.log'
+[3.120s] Invoked command in '/home/rastic-smartcity/ros2_ws/src/examples/rclpy/topics/minimal_subscriber' returned '0': PYTHONPATH=/home/rastic-smartcity/ros2_ws/build/examples_rclpy_minimal_subscriber/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rastic-smartcity/ros2_ws/install/examples_rclpy_minimal_subscriber/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../../../../build/examples_rclpy_minimal_subscriber build --build-base /home/rastic-smartcity/ros2_ws/build/examples_rclpy_minimal_subscriber/build install --record /home/rastic-smartcity/ros2_ws/build/examples_rclpy_minimal_subscriber/install.log --install-scripts $base/lib/examples_rclpy_minimal_subscriber --single-version-externally-managed install_data

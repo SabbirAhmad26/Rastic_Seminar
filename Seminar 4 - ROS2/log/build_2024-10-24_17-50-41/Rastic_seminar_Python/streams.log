@@ -1,0 +1,37 @@
+[0.831s] Invoking command in '/home/rastic-smartcity/ros2_ws/src/Rastic_seminar_Python': PYTHONPATH=/home/rastic-smartcity/ros2_ws/build/Rastic_seminar_Python/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rastic-smartcity/ros2_ws/install/Rastic_seminar_Python/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/Rastic_seminar_Python build --build-base /home/rastic-smartcity/ros2_ws/build/Rastic_seminar_Python/build install --record /home/rastic-smartcity/ros2_ws/build/Rastic_seminar_Python/install.log --install-scripts $base/lib/Rastic_seminar_Python --single-version-externally-managed install_data
+[1.042s] running egg_info
+[1.042s] creating ../../build/Rastic_seminar_Python/Rastic_seminar_Python.egg-info
+[1.042s] writing ../../build/Rastic_seminar_Python/Rastic_seminar_Python.egg-info/PKG-INFO
+[1.043s] writing dependency_links to ../../build/Rastic_seminar_Python/Rastic_seminar_Python.egg-info/dependency_links.txt
+[1.043s] writing entry points to ../../build/Rastic_seminar_Python/Rastic_seminar_Python.egg-info/entry_points.txt
+[1.043s] writing requirements to ../../build/Rastic_seminar_Python/Rastic_seminar_Python.egg-info/requires.txt
+[1.043s] writing top-level names to ../../build/Rastic_seminar_Python/Rastic_seminar_Python.egg-info/top_level.txt
+[1.044s] writing manifest file '../../build/Rastic_seminar_Python/Rastic_seminar_Python.egg-info/SOURCES.txt'
+[1.079s] reading manifest file '../../build/Rastic_seminar_Python/Rastic_seminar_Python.egg-info/SOURCES.txt'
+[1.080s] writing manifest file '../../build/Rastic_seminar_Python/Rastic_seminar_Python.egg-info/SOURCES.txt'
+[1.080s] running build
+[1.081s] running build_py
+[1.081s] creating /home/rastic-smartcity/ros2_ws/build/Rastic_seminar_Python/build
+[1.081s] creating /home/rastic-smartcity/ros2_ws/build/Rastic_seminar_Python/build/lib
+[1.081s] creating /home/rastic-smartcity/ros2_ws/build/Rastic_seminar_Python/build/lib/Rastic_seminar_Python
+[1.081s] copying Rastic_seminar_Python/rastic_python.py -> /home/rastic-smartcity/ros2_ws/build/Rastic_seminar_Python/build/lib/Rastic_seminar_Python
+[1.082s] copying Rastic_seminar_Python/__init__.py -> /home/rastic-smartcity/ros2_ws/build/Rastic_seminar_Python/build/lib/Rastic_seminar_Python
+[1.082s] running install
+[1.082s] running install_lib
+[1.082s] creating /home/rastic-smartcity/ros2_ws/install/Rastic_seminar_Python/lib/python3.8/site-packages/Rastic_seminar_Python
+[1.083s] copying /home/rastic-smartcity/ros2_ws/build/Rastic_seminar_Python/build/lib/Rastic_seminar_Python/rastic_python.py -> /home/rastic-smartcity/ros2_ws/install/Rastic_seminar_Python/lib/python3.8/site-packages/Rastic_seminar_Python
+[1.083s] copying /home/rastic-smartcity/ros2_ws/build/Rastic_seminar_Python/build/lib/Rastic_seminar_Python/__init__.py -> /home/rastic-smartcity/ros2_ws/install/Rastic_seminar_Python/lib/python3.8/site-packages/Rastic_seminar_Python
+[1.083s] byte-compiling /home/rastic-smartcity/ros2_ws/install/Rastic_seminar_Python/lib/python3.8/site-packages/Rastic_seminar_Python/rastic_python.py to rastic_python.cpython-38.pyc
+[1.084s] byte-compiling /home/rastic-smartcity/ros2_ws/install/Rastic_seminar_Python/lib/python3.8/site-packages/Rastic_seminar_Python/__init__.py to __init__.cpython-38.pyc
+[1.084s] running install_data
+[1.084s] creating /home/rastic-smartcity/ros2_ws/install/Rastic_seminar_Python/share/ament_index
+[1.084s] creating /home/rastic-smartcity/ros2_ws/install/Rastic_seminar_Python/share/ament_index/resource_index
+[1.085s] creating /home/rastic-smartcity/ros2_ws/install/Rastic_seminar_Python/share/ament_index/resource_index/packages
+[1.085s] copying resource/Rastic_seminar_Python -> /home/rastic-smartcity/ros2_ws/install/Rastic_seminar_Python/share/ament_index/resource_index/packages
+[1.085s] copying package.xml -> /home/rastic-smartcity/ros2_ws/install/Rastic_seminar_Python/share/Rastic_seminar_Python
+[1.085s] running install_egg_info
+[1.086s] Copying ../../build/Rastic_seminar_Python/Rastic_seminar_Python.egg-info to /home/rastic-smartcity/ros2_ws/install/Rastic_seminar_Python/lib/python3.8/site-packages/Rastic_seminar_Python-0.0.0-py3.8.egg-info
+[1.087s] running install_scripts
+[1.105s] Installing rastic_python script to /home/rastic-smartcity/ros2_ws/install/Rastic_seminar_Python/lib/Rastic_seminar_Python
+[1.106s] writing list of installed files to '/home/rastic-smartcity/ros2_ws/build/Rastic_seminar_Python/install.log'
+[1.127s] Invoked command in '/home/rastic-smartcity/ros2_ws/src/Rastic_seminar_Python' returned '0': PYTHONPATH=/home/rastic-smartcity/ros2_ws/build/Rastic_seminar_Python/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rastic-smartcity/ros2_ws/install/Rastic_seminar_Python/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/Rastic_seminar_Python build --build-base /home/rastic-smartcity/ros2_ws/build/Rastic_seminar_Python/build install --record /home/rastic-smartcity/ros2_ws/build/Rastic_seminar_Python/install.log --install-scripts $base/lib/Rastic_seminar_Python --single-version-externally-managed install_data

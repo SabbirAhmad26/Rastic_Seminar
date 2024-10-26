@@ -1,0 +1,47 @@
+[0.025s] Invoking command in '/home/rastic-smartcity/ros2_ws/build/Rastic_seminar': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/rastic-smartcity/ros2_ws/src/ros_tutorials/Rastic_seminar -DCMAKE_INSTALL_PREFIX=/home/rastic-smartcity/ros2_ws/install/Rastic_seminar
+[0.276s] -- The C compiler identification is GNU 9.4.0
+[0.276s] -- The CXX compiler identification is GNU 9.4.0
+[0.276s] -- Check for working C compiler: /usr/bin/cc
+[0.276s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.276s] -- Detecting C compiler ABI info
+[0.292s] -- Detecting C compiler ABI info - done
+[0.312s] -- Detecting C compile features
+[0.312s] -- Detecting C compile features - done
+[0.317s] -- Check for working CXX compiler: /usr/bin/c++
+[0.401s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.403s] -- Detecting CXX compiler ABI info
+[0.534s] -- Detecting CXX compiler ABI info - done
+[0.549s] -- Detecting CXX compile features
+[0.549s] -- Detecting CXX compile features - done
+[0.552s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.578s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.578s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.784s] -- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[0.837s] WARNING: Package name "Rastic_seminar" does not follow the naming conventions. It should start with a lower case letter and only contain lower case letters, digits, underscores, and dashes.
+[0.871s] -- Added test 'copyright' to check source files copyright and LICENSE
+[0.874s] -- Added test 'lint_cmake' to check CMake code style
+[0.876s] -- Added test 'xmllint' to check XML markup files
+[0.879s] -- Configuring done
+[0.882s] -- Generating done
+[0.883s] -- Build files have been written to: /home/rastic-smartcity/ros2_ws/build/Rastic_seminar
+[0.889s] Invoked command in '/home/rastic-smartcity/ros2_ws/build/Rastic_seminar' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/rastic-smartcity/ros2_ws/src/ros_tutorials/Rastic_seminar -DCMAKE_INSTALL_PREFIX=/home/rastic-smartcity/ros2_ws/install/Rastic_seminar
+[0.894s] Invoking command in '/home/rastic-smartcity/ros2_ws/build/Rastic_seminar': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/rastic-smartcity/ros2_ws/build/Rastic_seminar -- -j12 -l12
+[0.959s] Invoked command in '/home/rastic-smartcity/ros2_ws/build/Rastic_seminar' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/rastic-smartcity/ros2_ws/build/Rastic_seminar -- -j12 -l12
+[1.007s] Invoking command in '/home/rastic-smartcity/ros2_ws/build/Rastic_seminar': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/rastic-smartcity/ros2_ws/build/Rastic_seminar
+[1.020s] -- Install configuration: ""
+[1.021s] -- Installing: /home/rastic-smartcity/ros2_ws/install/Rastic_seminar/share/ament_index/resource_index/package_run_dependencies/Rastic_seminar
+[1.022s] -- Installing: /home/rastic-smartcity/ros2_ws/install/Rastic_seminar/share/ament_index/resource_index/parent_prefix_path/Rastic_seminar
+[1.023s] -- Installing: /home/rastic-smartcity/ros2_ws/install/Rastic_seminar/share/Rastic_seminar/environment/ament_prefix_path.sh
+[1.023s] -- Installing: /home/rastic-smartcity/ros2_ws/install/Rastic_seminar/share/Rastic_seminar/environment/ament_prefix_path.dsv
+[1.023s] -- Installing: /home/rastic-smartcity/ros2_ws/install/Rastic_seminar/share/Rastic_seminar/environment/path.sh
+[1.023s] -- Installing: /home/rastic-smartcity/ros2_ws/install/Rastic_seminar/share/Rastic_seminar/environment/path.dsv
+[1.023s] -- Installing: /home/rastic-smartcity/ros2_ws/install/Rastic_seminar/share/Rastic_seminar/local_setup.bash
+[1.023s] -- Installing: /home/rastic-smartcity/ros2_ws/install/Rastic_seminar/share/Rastic_seminar/local_setup.sh
+[1.023s] -- Installing: /home/rastic-smartcity/ros2_ws/install/Rastic_seminar/share/Rastic_seminar/local_setup.zsh
+[1.023s] -- Installing: /home/rastic-smartcity/ros2_ws/install/Rastic_seminar/share/Rastic_seminar/local_setup.dsv
+[1.023s] -- Installing: /home/rastic-smartcity/ros2_ws/install/Rastic_seminar/share/Rastic_seminar/package.dsv
+[1.024s] -- Installing: /home/rastic-smartcity/ros2_ws/install/Rastic_seminar/share/ament_index/resource_index/packages/Rastic_seminar
+[1.024s] -- Installing: /home/rastic-smartcity/ros2_ws/install/Rastic_seminar/share/Rastic_seminar/cmake/Rastic_seminarConfig.cmake
+[1.024s] -- Installing: /home/rastic-smartcity/ros2_ws/install/Rastic_seminar/share/Rastic_seminar/cmake/Rastic_seminarConfig-version.cmake
+[1.025s] -- Installing: /home/rastic-smartcity/ros2_ws/install/Rastic_seminar/share/Rastic_seminar/package.xml
+[1.032s] Invoked command in '/home/rastic-smartcity/ros2_ws/build/Rastic_seminar' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/rastic-smartcity/ros2_ws/build/Rastic_seminar

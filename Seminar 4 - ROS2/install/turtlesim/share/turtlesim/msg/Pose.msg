@@ -1,0 +1,1 @@
+/home/rastic-smartcity/ros2_ws/src/ros_tutorials/turtlesim/msg/Pose.msg

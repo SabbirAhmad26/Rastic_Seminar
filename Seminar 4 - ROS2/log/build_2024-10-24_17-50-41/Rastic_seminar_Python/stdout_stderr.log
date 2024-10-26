@@ -1,0 +1,35 @@
+running egg_info
+creating ../../build/Rastic_seminar_Python/Rastic_seminar_Python.egg-info
+writing ../../build/Rastic_seminar_Python/Rastic_seminar_Python.egg-info/PKG-INFO
+writing dependency_links to ../../build/Rastic_seminar_Python/Rastic_seminar_Python.egg-info/dependency_links.txt
+writing entry points to ../../build/Rastic_seminar_Python/Rastic_seminar_Python.egg-info/entry_points.txt
+writing requirements to ../../build/Rastic_seminar_Python/Rastic_seminar_Python.egg-info/requires.txt
+writing top-level names to ../../build/Rastic_seminar_Python/Rastic_seminar_Python.egg-info/top_level.txt
+writing manifest file '../../build/Rastic_seminar_Python/Rastic_seminar_Python.egg-info/SOURCES.txt'
+reading manifest file '../../build/Rastic_seminar_Python/Rastic_seminar_Python.egg-info/SOURCES.txt'
+writing manifest file '../../build/Rastic_seminar_Python/Rastic_seminar_Python.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/rastic-smartcity/ros2_ws/build/Rastic_seminar_Python/build
+creating /home/rastic-smartcity/ros2_ws/build/Rastic_seminar_Python/build/lib
+creating /home/rastic-smartcity/ros2_ws/build/Rastic_seminar_Python/build/lib/Rastic_seminar_Python
+copying Rastic_seminar_Python/rastic_python.py -> /home/rastic-smartcity/ros2_ws/build/Rastic_seminar_Python/build/lib/Rastic_seminar_Python
+copying Rastic_seminar_Python/__init__.py -> /home/rastic-smartcity/ros2_ws/build/Rastic_seminar_Python/build/lib/Rastic_seminar_Python
+running install
+running install_lib
+creating /home/rastic-smartcity/ros2_ws/install/Rastic_seminar_Python/lib/python3.8/site-packages/Rastic_seminar_Python
+copying /home/rastic-smartcity/ros2_ws/build/Rastic_seminar_Python/build/lib/Rastic_seminar_Python/rastic_python.py -> /home/rastic-smartcity/ros2_ws/install/Rastic_seminar_Python/lib/python3.8/site-packages/Rastic_seminar_Python
+copying /home/rastic-smartcity/ros2_ws/build/Rastic_seminar_Python/build/lib/Rastic_seminar_Python/__init__.py -> /home/rastic-smartcity/ros2_ws/install/Rastic_seminar_Python/lib/python3.8/site-packages/Rastic_seminar_Python
+byte-compiling /home/rastic-smartcity/ros2_ws/install/Rastic_seminar_Python/lib/python3.8/site-packages/Rastic_seminar_Python/rastic_python.py to rastic_python.cpython-38.pyc
+byte-compiling /home/rastic-smartcity/ros2_ws/install/Rastic_seminar_Python/lib/python3.8/site-packages/Rastic_seminar_Python/__init__.py to __init__.cpython-38.pyc
+running install_data
+creating /home/rastic-smartcity/ros2_ws/install/Rastic_seminar_Python/share/ament_index
+creating /home/rastic-smartcity/ros2_ws/install/Rastic_seminar_Python/share/ament_index/resource_index
+creating /home/rastic-smartcity/ros2_ws/install/Rastic_seminar_Python/share/ament_index/resource_index/packages
+copying resource/Rastic_seminar_Python -> /home/rastic-smartcity/ros2_ws/install/Rastic_seminar_Python/share/ament_index/resource_index/packages
+copying package.xml -> /home/rastic-smartcity/ros2_ws/install/Rastic_seminar_Python/share/Rastic_seminar_Python
+running install_egg_info
+Copying ../../build/Rastic_seminar_Python/Rastic_seminar_Python.egg-info to /home/rastic-smartcity/ros2_ws/install/Rastic_seminar_Python/lib/python3.8/site-packages/Rastic_seminar_Python-0.0.0-py3.8.egg-info
+running install_scripts
+Installing rastic_python script to /home/rastic-smartcity/ros2_ws/install/Rastic_seminar_Python/lib/Rastic_seminar_Python
+writing list of installed files to '/home/rastic-smartcity/ros2_ws/build/Rastic_seminar_Python/install.log'

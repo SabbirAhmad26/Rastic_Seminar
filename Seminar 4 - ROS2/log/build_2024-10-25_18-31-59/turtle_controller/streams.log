@@ -1,0 +1,40 @@
+[0.738s] Invoking command in '/home/rastic-smartcity/ros2_ws/src/turtle_controller': PYTHONPATH=/home/rastic-smartcity/ros2_ws/build/turtle_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rastic-smartcity/ros2_ws/install/turtle_controller/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/turtle_controller build --build-base /home/rastic-smartcity/ros2_ws/build/turtle_controller/build install --record /home/rastic-smartcity/ros2_ws/build/turtle_controller/install.log --single-version-externally-managed install_data
+[0.995s] running egg_info
+[0.996s] creating ../../build/turtle_controller/turtle_controller.egg-info
+[0.996s] writing ../../build/turtle_controller/turtle_controller.egg-info/PKG-INFO
+[0.996s] writing dependency_links to ../../build/turtle_controller/turtle_controller.egg-info/dependency_links.txt
+[0.996s] writing entry points to ../../build/turtle_controller/turtle_controller.egg-info/entry_points.txt
+[0.996s] writing requirements to ../../build/turtle_controller/turtle_controller.egg-info/requires.txt
+[0.996s] writing top-level names to ../../build/turtle_controller/turtle_controller.egg-info/top_level.txt
+[0.997s] writing manifest file '../../build/turtle_controller/turtle_controller.egg-info/SOURCES.txt'
+[1.032s] reading manifest file '../../build/turtle_controller/turtle_controller.egg-info/SOURCES.txt'
+[1.033s] writing manifest file '../../build/turtle_controller/turtle_controller.egg-info/SOURCES.txt'
+[1.033s] running build
+[1.033s] running build_py
+[1.033s] creating /home/rastic-smartcity/ros2_ws/build/turtle_controller/build
+[1.034s] creating /home/rastic-smartcity/ros2_ws/build/turtle_controller/build/lib
+[1.034s] creating /home/rastic-smartcity/ros2_ws/build/turtle_controller/build/lib/turtle_controller
+[1.034s] copying turtle_controller/turtle_controller.py -> /home/rastic-smartcity/ros2_ws/build/turtle_controller/build/lib/turtle_controller
+[1.034s] copying turtle_controller/turtle_controller_with_pid_implimentation.py -> /home/rastic-smartcity/ros2_ws/build/turtle_controller/build/lib/turtle_controller
+[1.034s] copying turtle_controller/__init__.py -> /home/rastic-smartcity/ros2_ws/build/turtle_controller/build/lib/turtle_controller
+[1.034s] running install
+[1.035s] running install_lib
+[1.035s] creating /home/rastic-smartcity/ros2_ws/install/turtle_controller/lib/python3.8/site-packages/turtle_controller
+[1.036s] copying /home/rastic-smartcity/ros2_ws/build/turtle_controller/build/lib/turtle_controller/turtle_controller.py -> /home/rastic-smartcity/ros2_ws/install/turtle_controller/lib/python3.8/site-packages/turtle_controller
+[1.036s] copying /home/rastic-smartcity/ros2_ws/build/turtle_controller/build/lib/turtle_controller/turtle_controller_with_pid_implimentation.py -> /home/rastic-smartcity/ros2_ws/install/turtle_controller/lib/python3.8/site-packages/turtle_controller
+[1.036s] copying /home/rastic-smartcity/ros2_ws/build/turtle_controller/build/lib/turtle_controller/__init__.py -> /home/rastic-smartcity/ros2_ws/install/turtle_controller/lib/python3.8/site-packages/turtle_controller
+[1.036s] byte-compiling /home/rastic-smartcity/ros2_ws/install/turtle_controller/lib/python3.8/site-packages/turtle_controller/turtle_controller.py to turtle_controller.cpython-38.pyc
+[1.038s] byte-compiling /home/rastic-smartcity/ros2_ws/install/turtle_controller/lib/python3.8/site-packages/turtle_controller/turtle_controller_with_pid_implimentation.py to turtle_controller_with_pid_implimentation.cpython-38.pyc
+[1.039s] byte-compiling /home/rastic-smartcity/ros2_ws/install/turtle_controller/lib/python3.8/site-packages/turtle_controller/__init__.py to __init__.cpython-38.pyc
+[1.039s] running install_data
+[1.039s] creating /home/rastic-smartcity/ros2_ws/install/turtle_controller/share/ament_index
+[1.039s] creating /home/rastic-smartcity/ros2_ws/install/turtle_controller/share/ament_index/resource_index
+[1.039s] creating /home/rastic-smartcity/ros2_ws/install/turtle_controller/share/ament_index/resource_index/packages
+[1.039s] copying resource/turtle_controller -> /home/rastic-smartcity/ros2_ws/install/turtle_controller/share/ament_index/resource_index/packages
+[1.040s] copying package.xml -> /home/rastic-smartcity/ros2_ws/install/turtle_controller/share/turtle_controller
+[1.040s] running install_egg_info
+[1.041s] Copying ../../build/turtle_controller/turtle_controller.egg-info to /home/rastic-smartcity/ros2_ws/install/turtle_controller/lib/python3.8/site-packages/turtle_controller-0.0.0-py3.8.egg-info
+[1.041s] running install_scripts
+[1.060s] Installing controller script to /home/rastic-smartcity/ros2_ws/install/turtle_controller/lib/turtle_demo_controller
+[1.061s] writing list of installed files to '/home/rastic-smartcity/ros2_ws/build/turtle_controller/install.log'
+[1.081s] Invoked command in '/home/rastic-smartcity/ros2_ws/src/turtle_controller' returned '0': PYTHONPATH=/home/rastic-smartcity/ros2_ws/build/turtle_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rastic-smartcity/ros2_ws/install/turtle_controller/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/turtle_controller build --build-base /home/rastic-smartcity/ros2_ws/build/turtle_controller/build install --record /home/rastic-smartcity/ros2_ws/build/turtle_controller/install.log --single-version-externally-managed install_data

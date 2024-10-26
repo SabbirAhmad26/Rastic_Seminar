@@ -1,0 +1,18 @@
+running develop
+running egg_info
+writing turtle_demo_controller.egg-info/PKG-INFO
+writing dependency_links to turtle_demo_controller.egg-info/dependency_links.txt
+writing entry points to turtle_demo_controller.egg-info/entry_points.txt
+writing requirements to turtle_demo_controller.egg-info/requires.txt
+writing top-level names to turtle_demo_controller.egg-info/top_level.txt
+reading manifest file 'turtle_demo_controller.egg-info/SOURCES.txt'
+writing manifest file 'turtle_demo_controller.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/rastic-smartcity/ros2_ws/install/turtle_demo_controller/lib/python3.8/site-packages/site.py
+Creating /home/rastic-smartcity/ros2_ws/install/turtle_demo_controller/lib/python3.8/site-packages/turtle-demo-controller.egg-link (link to .)
+Installing turt_controller script to /home/rastic-smartcity/ros2_ws/install/turtle_demo_controller/lib/turtle_demo_controller
+
+Installed /home/rastic-smartcity/ros2_ws/build/turtle_demo_controller
+running symlink_data
+symbolically linking /home/rastic-smartcity/ros2_ws/build/turtle_demo_controller/resource/turtle_demo_controller -> /home/rastic-smartcity/ros2_ws/install/turtle_demo_controller/share/ament_index/resource_index/packages
+symbolically linking /home/rastic-smartcity/ros2_ws/build/turtle_demo_controller/package.xml -> /home/rastic-smartcity/ros2_ws/install/turtle_demo_controller/share/turtle_demo_controller

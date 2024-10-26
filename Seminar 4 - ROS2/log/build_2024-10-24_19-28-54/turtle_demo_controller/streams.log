@@ -1,0 +1,17 @@
+[1.299s] Invoking command in '/home/rastic-smartcity/ros2_ws/build/turtle_demo_controller': AMENT_PREFIX_PATH=/home/rastic-smartcity/ros2_ws/install/turtlesim:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/rastic-smartcity/ros2_ws/install/turtlesim LD_LIBRARY_PATH=/home/rastic-smartcity/ros2_ws/install/turtlesim/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/rastic-smartcity/ros2_ws/build/turtle_demo_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rastic-smartcity/ros2_ws/install/turtle_demo_controller/lib/python3.8/site-packages:/home/rastic-smartcity/ros2_ws/install/turtlesim/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/rastic-smartcity/ros2_ws/build/turtle_demo_controller/build --no-deps symlink_data
+[1.671s] running develop
+[1.803s] running egg_info
+[1.804s] writing turtle_demo_controller.egg-info/PKG-INFO
+[1.804s] writing dependency_links to turtle_demo_controller.egg-info/dependency_links.txt
+[1.804s] writing entry points to turtle_demo_controller.egg-info/entry_points.txt
+[1.804s] writing requirements to turtle_demo_controller.egg-info/requires.txt
+[1.804s] writing top-level names to turtle_demo_controller.egg-info/top_level.txt
+[1.840s] reading manifest file 'turtle_demo_controller.egg-info/SOURCES.txt'
+[1.841s] writing manifest file 'turtle_demo_controller.egg-info/SOURCES.txt'
+[1.876s] running build_ext
+[1.877s] Creating /home/rastic-smartcity/ros2_ws/install/turtle_demo_controller/lib/python3.8/site-packages/turtle-demo-controller.egg-link (link to .)
+[1.878s] Installing turt_controller script to /home/rastic-smartcity/ros2_ws/install/turtle_demo_controller/lib/turtle_demo_controller
+[1.878s] 
+[1.878s] Installed /home/rastic-smartcity/ros2_ws/build/turtle_demo_controller
+[1.878s] running symlink_data
+[1.905s] Invoked command in '/home/rastic-smartcity/ros2_ws/build/turtle_demo_controller' returned '0': AMENT_PREFIX_PATH=/home/rastic-smartcity/ros2_ws/install/turtlesim:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/rastic-smartcity/ros2_ws/install/turtlesim LD_LIBRARY_PATH=/home/rastic-smartcity/ros2_ws/install/turtlesim/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/rastic-smartcity/ros2_ws/build/turtle_demo_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rastic-smartcity/ros2_ws/install/turtle_demo_controller/lib/python3.8/site-packages:/home/rastic-smartcity/ros2_ws/install/turtlesim/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/rastic-smartcity/ros2_ws/build/turtle_demo_controller/build --no-deps symlink_data

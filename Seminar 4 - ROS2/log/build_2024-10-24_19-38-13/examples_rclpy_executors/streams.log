@@ -1,0 +1,56 @@
+[1.843s] Invoking command in '/home/rastic-smartcity/ros2_ws/build/examples_rclpy_executors': PYTHONPATH=/home/rastic-smartcity/ros2_ws/build/examples_rclpy_executors/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rastic-smartcity/ros2_ws/install/examples_rclpy_executors/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --uninstall --editable --build-directory /home/rastic-smartcity/ros2_ws/build/examples_rclpy_executors/build
+[2.208s] running develop
+[2.424s] Removing /home/rastic-smartcity/ros2_ws/install/examples_rclpy_executors/lib/python3.8/site-packages/examples-rclpy-executors.egg-link (link to .)
+[2.791s] Invoked command in '/home/rastic-smartcity/ros2_ws/build/examples_rclpy_executors' returned '0': PYTHONPATH=/home/rastic-smartcity/ros2_ws/build/examples_rclpy_executors/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rastic-smartcity/ros2_ws/install/examples_rclpy_executors/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --uninstall --editable --build-directory /home/rastic-smartcity/ros2_ws/build/examples_rclpy_executors/build
+[2.793s] Invoking command in '/home/rastic-smartcity/ros2_ws/src/examples/rclpy/executors': PYTHONPATH=/home/rastic-smartcity/ros2_ws/build/examples_rclpy_executors/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rastic-smartcity/ros2_ws/install/examples_rclpy_executors/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../../../build/examples_rclpy_executors build --build-base /home/rastic-smartcity/ros2_ws/build/examples_rclpy_executors/build install --record /home/rastic-smartcity/ros2_ws/build/examples_rclpy_executors/install.log --install-scripts $base/lib/examples_rclpy_executors --single-version-externally-managed install_data --force
+[3.075s] running egg_info
+[3.076s] writing ../../../../build/examples_rclpy_executors/examples_rclpy_executors.egg-info/PKG-INFO
+[3.077s] writing dependency_links to ../../../../build/examples_rclpy_executors/examples_rclpy_executors.egg-info/dependency_links.txt
+[3.077s] writing entry points to ../../../../build/examples_rclpy_executors/examples_rclpy_executors.egg-info/entry_points.txt
+[3.077s] writing requirements to ../../../../build/examples_rclpy_executors/examples_rclpy_executors.egg-info/requires.txt
+[3.078s] writing top-level names to ../../../../build/examples_rclpy_executors/examples_rclpy_executors.egg-info/top_level.txt
+[3.148s] reading manifest file '../../../../build/examples_rclpy_executors/examples_rclpy_executors.egg-info/SOURCES.txt'
+[3.150s] writing manifest file '../../../../build/examples_rclpy_executors/examples_rclpy_executors.egg-info/SOURCES.txt'
+[3.150s] running build
+[3.150s] running build_py
+[3.150s] creating /home/rastic-smartcity/ros2_ws/build/examples_rclpy_executors/build
+[3.150s] creating /home/rastic-smartcity/ros2_ws/build/examples_rclpy_executors/build/lib
+[3.151s] creating /home/rastic-smartcity/ros2_ws/build/examples_rclpy_executors/build/lib/examples_rclpy_executors
+[3.151s] copying examples_rclpy_executors/custom_executor.py -> /home/rastic-smartcity/ros2_ws/build/examples_rclpy_executors/build/lib/examples_rclpy_executors
+[3.151s] copying examples_rclpy_executors/custom_callback_group.py -> /home/rastic-smartcity/ros2_ws/build/examples_rclpy_executors/build/lib/examples_rclpy_executors
+[3.151s] copying examples_rclpy_executors/callback_group.py -> /home/rastic-smartcity/ros2_ws/build/examples_rclpy_executors/build/lib/examples_rclpy_executors
+[3.151s] copying examples_rclpy_executors/listener.py -> /home/rastic-smartcity/ros2_ws/build/examples_rclpy_executors/build/lib/examples_rclpy_executors
+[3.151s] copying examples_rclpy_executors/composed.py -> /home/rastic-smartcity/ros2_ws/build/examples_rclpy_executors/build/lib/examples_rclpy_executors
+[3.152s] copying examples_rclpy_executors/__init__.py -> /home/rastic-smartcity/ros2_ws/build/examples_rclpy_executors/build/lib/examples_rclpy_executors
+[3.152s] copying examples_rclpy_executors/talker.py -> /home/rastic-smartcity/ros2_ws/build/examples_rclpy_executors/build/lib/examples_rclpy_executors
+[3.152s] running install
+[3.154s] running install_lib
+[3.156s] creating /home/rastic-smartcity/ros2_ws/install/examples_rclpy_executors/lib/python3.8/site-packages/examples_rclpy_executors
+[3.156s] copying /home/rastic-smartcity/ros2_ws/build/examples_rclpy_executors/build/lib/examples_rclpy_executors/custom_executor.py -> /home/rastic-smartcity/ros2_ws/install/examples_rclpy_executors/lib/python3.8/site-packages/examples_rclpy_executors
+[3.156s] copying /home/rastic-smartcity/ros2_ws/build/examples_rclpy_executors/build/lib/examples_rclpy_executors/custom_callback_group.py -> /home/rastic-smartcity/ros2_ws/install/examples_rclpy_executors/lib/python3.8/site-packages/examples_rclpy_executors
+[3.157s] copying /home/rastic-smartcity/ros2_ws/build/examples_rclpy_executors/build/lib/examples_rclpy_executors/callback_group.py -> /home/rastic-smartcity/ros2_ws/install/examples_rclpy_executors/lib/python3.8/site-packages/examples_rclpy_executors
+[3.157s] copying /home/rastic-smartcity/ros2_ws/build/examples_rclpy_executors/build/lib/examples_rclpy_executors/listener.py -> /home/rastic-smartcity/ros2_ws/install/examples_rclpy_executors/lib/python3.8/site-packages/examples_rclpy_executors
+[3.157s] copying /home/rastic-smartcity/ros2_ws/build/examples_rclpy_executors/build/lib/examples_rclpy_executors/composed.py -> /home/rastic-smartcity/ros2_ws/install/examples_rclpy_executors/lib/python3.8/site-packages/examples_rclpy_executors
+[3.157s] copying /home/rastic-smartcity/ros2_ws/build/examples_rclpy_executors/build/lib/examples_rclpy_executors/__init__.py -> /home/rastic-smartcity/ros2_ws/install/examples_rclpy_executors/lib/python3.8/site-packages/examples_rclpy_executors
+[3.157s] copying /home/rastic-smartcity/ros2_ws/build/examples_rclpy_executors/build/lib/examples_rclpy_executors/talker.py -> /home/rastic-smartcity/ros2_ws/install/examples_rclpy_executors/lib/python3.8/site-packages/examples_rclpy_executors
+[3.158s] byte-compiling /home/rastic-smartcity/ros2_ws/install/examples_rclpy_executors/lib/python3.8/site-packages/examples_rclpy_executors/custom_executor.py to custom_executor.cpython-38.pyc
+[3.161s] byte-compiling /home/rastic-smartcity/ros2_ws/install/examples_rclpy_executors/lib/python3.8/site-packages/examples_rclpy_executors/custom_callback_group.py to custom_callback_group.cpython-38.pyc
+[3.162s] byte-compiling /home/rastic-smartcity/ros2_ws/install/examples_rclpy_executors/lib/python3.8/site-packages/examples_rclpy_executors/callback_group.py to callback_group.cpython-38.pyc
+[3.163s] byte-compiling /home/rastic-smartcity/ros2_ws/install/examples_rclpy_executors/lib/python3.8/site-packages/examples_rclpy_executors/listener.py to listener.cpython-38.pyc
+[3.164s] byte-compiling /home/rastic-smartcity/ros2_ws/install/examples_rclpy_executors/lib/python3.8/site-packages/examples_rclpy_executors/composed.py to composed.cpython-38.pyc
+[3.164s] byte-compiling /home/rastic-smartcity/ros2_ws/install/examples_rclpy_executors/lib/python3.8/site-packages/examples_rclpy_executors/__init__.py to __init__.cpython-38.pyc
+[3.165s] byte-compiling /home/rastic-smartcity/ros2_ws/install/examples_rclpy_executors/lib/python3.8/site-packages/examples_rclpy_executors/talker.py to talker.cpython-38.pyc
+[3.165s] running install_data
+[3.165s] copying resource/examples_rclpy_executors -> /home/rastic-smartcity/ros2_ws/install/examples_rclpy_executors/share/ament_index/resource_index/packages
+[3.166s] copying package.xml -> /home/rastic-smartcity/ros2_ws/install/examples_rclpy_executors/share/examples_rclpy_executors
+[3.166s] running install_egg_info
+[3.170s] Copying ../../../../build/examples_rclpy_executors/examples_rclpy_executors.egg-info to /home/rastic-smartcity/ros2_ws/install/examples_rclpy_executors/lib/python3.8/site-packages/examples_rclpy_executors-0.9.4-py3.8.egg-info
+[3.171s] running install_scripts
+[3.205s] Installing callback_group script to /home/rastic-smartcity/ros2_ws/install/examples_rclpy_executors/lib/examples_rclpy_executors
+[3.205s] Installing composed script to /home/rastic-smartcity/ros2_ws/install/examples_rclpy_executors/lib/examples_rclpy_executors
+[3.206s] Installing custom_callback_group script to /home/rastic-smartcity/ros2_ws/install/examples_rclpy_executors/lib/examples_rclpy_executors
+[3.206s] Installing custom_executor script to /home/rastic-smartcity/ros2_ws/install/examples_rclpy_executors/lib/examples_rclpy_executors
+[3.206s] Installing listener script to /home/rastic-smartcity/ros2_ws/install/examples_rclpy_executors/lib/examples_rclpy_executors
+[3.206s] Installing talker script to /home/rastic-smartcity/ros2_ws/install/examples_rclpy_executors/lib/examples_rclpy_executors
+[3.207s] writing list of installed files to '/home/rastic-smartcity/ros2_ws/build/examples_rclpy_executors/install.log'
+[3.652s] Invoked command in '/home/rastic-smartcity/ros2_ws/src/examples/rclpy/executors' returned '0': PYTHONPATH=/home/rastic-smartcity/ros2_ws/build/examples_rclpy_executors/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rastic-smartcity/ros2_ws/install/examples_rclpy_executors/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../../../build/examples_rclpy_executors build --build-base /home/rastic-smartcity/ros2_ws/build/examples_rclpy_executors/build install --record /home/rastic-smartcity/ros2_ws/build/examples_rclpy_executors/install.log --install-scripts $base/lib/examples_rclpy_executors --single-version-externally-managed install_data --force

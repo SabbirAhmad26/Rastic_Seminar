@@ -1,0 +1,25 @@
+[2.411s] Invoking command in '/home/rastic-smartcity/ros2_ws/src/examples/rclpy/actions/minimal_action_server': PYTHONPATH=/home/rastic-smartcity/ros2_ws/build/examples_rclpy_minimal_action_server/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rastic-smartcity/ros2_ws/install/examples_rclpy_minimal_action_server/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../../../../build/examples_rclpy_minimal_action_server build --build-base /home/rastic-smartcity/ros2_ws/build/examples_rclpy_minimal_action_server/build install --record /home/rastic-smartcity/ros2_ws/build/examples_rclpy_minimal_action_server/install.log --install-scripts $base/lib/examples_rclpy_minimal_action_server --single-version-externally-managed install_data
+[2.869s] running egg_info
+[2.870s] writing ../../../../../build/examples_rclpy_minimal_action_server/examples_rclpy_minimal_action_server.egg-info/PKG-INFO
+[2.870s] writing dependency_links to ../../../../../build/examples_rclpy_minimal_action_server/examples_rclpy_minimal_action_server.egg-info/dependency_links.txt
+[2.870s] writing entry points to ../../../../../build/examples_rclpy_minimal_action_server/examples_rclpy_minimal_action_server.egg-info/entry_points.txt
+[2.871s] writing requirements to ../../../../../build/examples_rclpy_minimal_action_server/examples_rclpy_minimal_action_server.egg-info/requires.txt
+[2.871s] writing top-level names to ../../../../../build/examples_rclpy_minimal_action_server/examples_rclpy_minimal_action_server.egg-info/top_level.txt
+[2.908s] reading manifest file '../../../../../build/examples_rclpy_minimal_action_server/examples_rclpy_minimal_action_server.egg-info/SOURCES.txt'
+[2.909s] writing manifest file '../../../../../build/examples_rclpy_minimal_action_server/examples_rclpy_minimal_action_server.egg-info/SOURCES.txt'
+[2.910s] running build
+[2.910s] running build_py
+[2.910s] running install
+[2.911s] running install_lib
+[2.913s] running install_data
+[2.913s] running install_egg_info
+[2.915s] removing '/home/rastic-smartcity/ros2_ws/install/examples_rclpy_minimal_action_server/lib/python3.8/site-packages/examples_rclpy_minimal_action_server-0.9.4-py3.8.egg-info' (and everything under it)
+[2.916s] Copying ../../../../../build/examples_rclpy_minimal_action_server/examples_rclpy_minimal_action_server.egg-info to /home/rastic-smartcity/ros2_ws/install/examples_rclpy_minimal_action_server/lib/python3.8/site-packages/examples_rclpy_minimal_action_server-0.9.4-py3.8.egg-info
+[2.916s] running install_scripts
+[2.938s] Installing server script to /home/rastic-smartcity/ros2_ws/install/examples_rclpy_minimal_action_server/lib/examples_rclpy_minimal_action_server
+[2.938s] Installing server_defer script to /home/rastic-smartcity/ros2_ws/install/examples_rclpy_minimal_action_server/lib/examples_rclpy_minimal_action_server
+[2.938s] Installing server_not_composable script to /home/rastic-smartcity/ros2_ws/install/examples_rclpy_minimal_action_server/lib/examples_rclpy_minimal_action_server
+[2.938s] Installing server_queue_goals script to /home/rastic-smartcity/ros2_ws/install/examples_rclpy_minimal_action_server/lib/examples_rclpy_minimal_action_server
+[2.939s] Installing server_single_goal script to /home/rastic-smartcity/ros2_ws/install/examples_rclpy_minimal_action_server/lib/examples_rclpy_minimal_action_server
+[2.939s] writing list of installed files to '/home/rastic-smartcity/ros2_ws/build/examples_rclpy_minimal_action_server/install.log'
+[2.964s] Invoked command in '/home/rastic-smartcity/ros2_ws/src/examples/rclpy/actions/minimal_action_server' returned '0': PYTHONPATH=/home/rastic-smartcity/ros2_ws/build/examples_rclpy_minimal_action_server/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rastic-smartcity/ros2_ws/install/examples_rclpy_minimal_action_server/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../../../../build/examples_rclpy_minimal_action_server build --build-base /home/rastic-smartcity/ros2_ws/build/examples_rclpy_minimal_action_server/build install --record /home/rastic-smartcity/ros2_ws/build/examples_rclpy_minimal_action_server/install.log --install-scripts $base/lib/examples_rclpy_minimal_action_server --single-version-externally-managed install_data

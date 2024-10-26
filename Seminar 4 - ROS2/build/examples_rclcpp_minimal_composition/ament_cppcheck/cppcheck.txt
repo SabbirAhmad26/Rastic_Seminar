@@ -1,0 +1,8 @@
+-- run_test.py: invoking following command in '/home/rastic-smartcity/ros2_ws/src/examples/rclcpp/composition/minimal_composition':
+ - /opt/ros/foxy/bin/ament_cppcheck --xunit-file /home/rastic-smartcity/ros2_ws/build/examples_rclcpp_minimal_composition/test_results/examples_rclcpp_minimal_composition/cppcheck.xunit.xml --include_dirs /home/rastic-smartcity/ros2_ws/src/examples/rclcpp/composition/minimal_composition/include
+
+No problems found
+
+
+-- run_test.py: return code 0
+-- run_test.py: verify result file '/home/rastic-smartcity/ros2_ws/build/examples_rclcpp_minimal_composition/test_results/examples_rclcpp_minimal_composition/cppcheck.xunit.xml'

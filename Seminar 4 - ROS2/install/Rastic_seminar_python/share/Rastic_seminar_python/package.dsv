@@ -1,0 +1,6 @@
+source;share/Rastic_seminar_Python/hook/pythonpath.ps1
+source;share/Rastic_seminar_Python/hook/pythonpath.dsv
+source;share/Rastic_seminar_Python/hook/pythonpath.sh
+source;share/Rastic_seminar_Python/hook/ament_prefix_path.ps1
+source;share/Rastic_seminar_Python/hook/ament_prefix_path.dsv
+source;share/Rastic_seminar_Python/hook/ament_prefix_path.sh

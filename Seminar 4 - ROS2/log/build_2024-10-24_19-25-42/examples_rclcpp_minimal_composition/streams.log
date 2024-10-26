@@ -1,0 +1,96 @@
+[0.094s] Invoking command in '/home/rastic-smartcity/ros2_ws/build/examples_rclcpp_minimal_composition': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rastic-smartcity/ros2_ws/install/turtle_demo_controller:/home/rastic-smartcity/ros2_ws/install/Rastic_seminar_Python:/home/rastic-smartcity/ros2_ws/install/Rastic_seminar_python:/opt/ros/foxy /usr/bin/cmake /home/rastic-smartcity/ros2_ws/src/examples/rclcpp/composition/minimal_composition -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/rastic-smartcity/ros2_ws/install/examples_rclcpp_minimal_composition
+[0.896s] -- The C compiler identification is GNU 9.4.0
+[0.896s] -- The CXX compiler identification is GNU 9.4.0
+[0.896s] -- Check for working C compiler: /usr/bin/cc
+[0.896s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.896s] -- Detecting C compiler ABI info
+[0.896s] -- Detecting C compiler ABI info - done
+[0.896s] -- Detecting C compile features
+[0.896s] -- Detecting C compile features - done
+[0.896s] -- Check for working CXX compiler: /usr/bin/c++
+[0.896s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.897s] -- Detecting CXX compiler ABI info
+[0.968s] -- Detecting CXX compiler ABI info - done
+[0.994s] -- Detecting CXX compile features
+[0.998s] -- Detecting CXX compile features - done
+[1.004s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[1.108s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[1.108s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.505s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.566s] -- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)
+[1.667s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.684s] -- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[1.850s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[1.928s] -- Found FastRTPS: /opt/ros/foxy/include  
+[2.105s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.231s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[2.234s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.236s] -- Looking for pthread.h
+[2.394s] -- Looking for pthread.h - found
+[2.394s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[2.528s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[2.529s] -- Looking for pthread_create in pthreads
+[2.671s] -- Looking for pthread_create in pthreads - not found
+[2.671s] -- Looking for pthread_create in pthread
+[2.787s] -- Looking for pthread_create in pthread - found
+[2.789s] -- Found Threads: TRUE  
+[3.062s] -- Found rclcpp_components: 2.4.3 (/opt/ros/foxy/share/rclcpp_components/cmake)
+[3.190s] -- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[3.371s] -- Added test 'copyright' to check source files copyright and LICENSE
+[3.373s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[3.374s] -- Configured cppcheck include dirs: /home/rastic-smartcity/ros2_ws/src/examples/rclcpp/composition/minimal_composition/include
+[3.374s] -- Configured cppcheck exclude dirs and/or files: 
+[3.376s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[3.376s] -- Configured cpplint exclude dirs and/or files: 
+[3.378s] -- Added test 'lint_cmake' to check CMake code style
+[3.380s] -- Added test 'uncrustify' to check C / C++ code style
+[3.380s] -- Configured uncrustify additional arguments: 
+[3.382s] -- Added test 'xmllint' to check XML markup files
+[3.389s] -- Configuring done
+[3.453s] -- Generating done
+[3.453s] -- Build files have been written to: /home/rastic-smartcity/ros2_ws/build/examples_rclcpp_minimal_composition
+[3.566s] Invoked command in '/home/rastic-smartcity/ros2_ws/build/examples_rclcpp_minimal_composition' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rastic-smartcity/ros2_ws/install/turtle_demo_controller:/home/rastic-smartcity/ros2_ws/install/Rastic_seminar_Python:/home/rastic-smartcity/ros2_ws/install/Rastic_seminar_python:/opt/ros/foxy /usr/bin/cmake /home/rastic-smartcity/ros2_ws/src/examples/rclcpp/composition/minimal_composition -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/rastic-smartcity/ros2_ws/install/examples_rclcpp_minimal_composition
+[3.567s] Invoking command in '/home/rastic-smartcity/ros2_ws/build/examples_rclcpp_minimal_composition': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rastic-smartcity/ros2_ws/install/turtle_demo_controller:/home/rastic-smartcity/ros2_ws/install/Rastic_seminar_Python:/home/rastic-smartcity/ros2_ws/install/Rastic_seminar_python:/opt/ros/foxy /usr/bin/cmake --build /home/rastic-smartcity/ros2_ws/build/examples_rclcpp_minimal_composition -- -j12 -l12
+[4.982s] [35m[1mScanning dependencies of target composition_nodes[0m
+[4.983s] [ 11%] [32mBuilding CXX object CMakeFiles/composition_nodes.dir/src/publisher_node.cpp.o[0m
+[4.983s] [ 22%] [32mBuilding CXX object CMakeFiles/composition_nodes.dir/src/subscriber_node.cpp.o[0m
+[18.124s] [ 33%] [32m[1mLinking CXX shared library libcomposition_nodes.so[0m
+[18.594s] [ 33%] Built target composition_nodes
+[18.606s] [35m[1mScanning dependencies of target composition_composed[0m
+[18.606s] [35m[1mScanning dependencies of target composition_subscriber[0m
+[18.614s] [35m[1mScanning dependencies of target composition_publisher[0m
+[18.651s] [ 44%] [32mBuilding CXX object CMakeFiles/composition_composed.dir/src/composed.cpp.o[0m
+[18.652s] [ 55%] [32mBuilding CXX object CMakeFiles/composition_subscriber.dir/src/standalone_subscriber.cpp.o[0m
+[18.657s] [ 66%] [32mBuilding CXX object CMakeFiles/composition_publisher.dir/src/standalone_publisher.cpp.o[0m
+[20.399s] [ 77%] [32m[1mLinking CXX executable composition_publisher[0m
+[20.568s] [ 77%] Built target composition_publisher
+[20.891s] [ 88%] [32m[1mLinking CXX executable composition_composed[0m
+[20.973s] [100%] [32m[1mLinking CXX executable composition_subscriber[0m
+[21.066s] [100%] Built target composition_composed
+[21.143s] [100%] Built target composition_subscriber
+[21.157s] Invoked command in '/home/rastic-smartcity/ros2_ws/build/examples_rclcpp_minimal_composition' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rastic-smartcity/ros2_ws/install/turtle_demo_controller:/home/rastic-smartcity/ros2_ws/install/Rastic_seminar_Python:/home/rastic-smartcity/ros2_ws/install/Rastic_seminar_python:/opt/ros/foxy /usr/bin/cmake --build /home/rastic-smartcity/ros2_ws/build/examples_rclcpp_minimal_composition -- -j12 -l12
+[21.194s] Invoking command in '/home/rastic-smartcity/ros2_ws/build/examples_rclcpp_minimal_composition': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rastic-smartcity/ros2_ws/install/turtle_demo_controller:/home/rastic-smartcity/ros2_ws/install/Rastic_seminar_Python:/home/rastic-smartcity/ros2_ws/install/Rastic_seminar_python:/opt/ros/foxy /usr/bin/cmake --install /home/rastic-smartcity/ros2_ws/build/examples_rclcpp_minimal_composition
+[21.202s] -- Install configuration: ""
+[21.203s] -- Execute custom install script
+[21.203s] -- Symlinking: /home/rastic-smartcity/ros2_ws/install/examples_rclcpp_minimal_composition/share/examples_rclcpp_minimal_composition/environment/library_path.sh
+[21.213s] -- Symlinking: /home/rastic-smartcity/ros2_ws/install/examples_rclcpp_minimal_composition/share/examples_rclcpp_minimal_composition/environment/library_path.dsv
+[21.226s] -- Symlinking: /home/rastic-smartcity/ros2_ws/install/examples_rclcpp_minimal_composition/lib/libcomposition_nodes.so
+[21.245s] -- Symlinking: /home/rastic-smartcity/ros2_ws/install/examples_rclcpp_minimal_composition/lib/examples_rclcpp_minimal_composition/composition_publisher
+[21.262s] -- Symlinking: /home/rastic-smartcity/ros2_ws/install/examples_rclcpp_minimal_composition/lib/examples_rclcpp_minimal_composition/composition_subscriber
+[21.277s] -- Symlinking: /home/rastic-smartcity/ros2_ws/install/examples_rclcpp_minimal_composition/lib/examples_rclcpp_minimal_composition/composition_composed
+[21.297s] -- Symlinking: /home/rastic-smartcity/ros2_ws/install/examples_rclcpp_minimal_composition/share/ament_index/resource_index/package_run_dependencies/examples_rclcpp_minimal_composition
+[21.314s] -- Symlinking: /home/rastic-smartcity/ros2_ws/install/examples_rclcpp_minimal_composition/share/ament_index/resource_index/parent_prefix_path/examples_rclcpp_minimal_composition
+[21.327s] -- Symlinking: /home/rastic-smartcity/ros2_ws/install/examples_rclcpp_minimal_composition/share/examples_rclcpp_minimal_composition/environment/ament_prefix_path.sh
+[21.345s] -- Symlinking: /home/rastic-smartcity/ros2_ws/install/examples_rclcpp_minimal_composition/share/examples_rclcpp_minimal_composition/environment/ament_prefix_path.dsv
+[21.364s] -- Symlinking: /home/rastic-smartcity/ros2_ws/install/examples_rclcpp_minimal_composition/share/examples_rclcpp_minimal_composition/environment/path.sh
+[21.377s] -- Symlinking: /home/rastic-smartcity/ros2_ws/install/examples_rclcpp_minimal_composition/share/examples_rclcpp_minimal_composition/environment/path.dsv
+[21.390s] -- Symlinking: /home/rastic-smartcity/ros2_ws/install/examples_rclcpp_minimal_composition/share/examples_rclcpp_minimal_composition/local_setup.bash
+[21.403s] -- Symlinking: /home/rastic-smartcity/ros2_ws/install/examples_rclcpp_minimal_composition/share/examples_rclcpp_minimal_composition/local_setup.sh
+[21.414s] -- Symlinking: /home/rastic-smartcity/ros2_ws/install/examples_rclcpp_minimal_composition/share/examples_rclcpp_minimal_composition/local_setup.zsh
+[21.426s] -- Symlinking: /home/rastic-smartcity/ros2_ws/install/examples_rclcpp_minimal_composition/share/examples_rclcpp_minimal_composition/local_setup.dsv
+[21.438s] -- Symlinking: /home/rastic-smartcity/ros2_ws/install/examples_rclcpp_minimal_composition/share/examples_rclcpp_minimal_composition/package.dsv
+[21.448s] -- Symlinking: /home/rastic-smartcity/ros2_ws/install/examples_rclcpp_minimal_composition/share/ament_index/resource_index/packages/examples_rclcpp_minimal_composition
+[21.459s] -- Symlinking: /home/rastic-smartcity/ros2_ws/install/examples_rclcpp_minimal_composition/share/examples_rclcpp_minimal_composition/cmake/examples_rclcpp_minimal_compositionConfig.cmake
+[21.471s] -- Symlinking: /home/rastic-smartcity/ros2_ws/install/examples_rclcpp_minimal_composition/share/examples_rclcpp_minimal_composition/cmake/examples_rclcpp_minimal_compositionConfig-version.cmake
+[21.483s] -- Symlinking: /home/rastic-smartcity/ros2_ws/install/examples_rclcpp_minimal_composition/share/examples_rclcpp_minimal_composition/package.xml
+[21.502s] Invoked command in '/home/rastic-smartcity/ros2_ws/build/examples_rclcpp_minimal_composition' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rastic-smartcity/ros2_ws/install/turtle_demo_controller:/home/rastic-smartcity/ros2_ws/install/Rastic_seminar_Python:/home/rastic-smartcity/ros2_ws/install/Rastic_seminar_python:/opt/ros/foxy /usr/bin/cmake --install /home/rastic-smartcity/ros2_ws/build/examples_rclcpp_minimal_composition

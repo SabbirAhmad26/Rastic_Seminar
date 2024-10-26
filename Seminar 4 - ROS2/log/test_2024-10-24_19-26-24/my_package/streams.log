@@ -1,0 +1,30 @@
+[1.036s] Invoking command in '/home/rastic-smartcity/ros2_ws/src/my_package': AMENT_PREFIX_PATH=/home/rastic-smartcity/ros2_ws/install/my_package:/home/rastic-smartcity/ros2_ws/install/turtle_demo_controller:/home/rastic-smartcity/ros2_ws/install/Rastic_seminar_Python:/home/rastic-smartcity/ros2_ws/install/turtlesim:/home/rastic-smartcity/ros2_ws/install/Rastic_seminar_python:/home/rastic-smartcity/ros2_ws/install/Rastic_seminar:/opt/ros/foxy PYTEST_ADDOPTS=--tb=short --junit-xml=/home/rastic-smartcity/ros2_ws/build/my_package/pytest.xml --junit-prefix=my_package -o cache_dir=/home/rastic-smartcity/ros2_ws/build/my_package/.pytest_cache PYTHONDONTWRITEBYTECODE=1 PYTHONPATH=/home/rastic-smartcity/ros2_ws/build/my_package:/home/rastic-smartcity/ros2_ws/install/my_package/lib/python3.8/site-packages:/home/rastic-smartcity/ros2_ws/install/turtle_demo_controller/lib/python3.8/site-packages:/home/rastic-smartcity/ros2_ws/install/Rastic_seminar_Python/lib/python3.8/site-packages:/home/rastic-smartcity/ros2_ws/install/turtlesim/lib/python3.8/site-packages:/home/rastic-smartcity/ros2_ws/install/Rastic_seminar_python/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages /usr/bin/python3 -m pytest
+[1.592s] [1m============================= test session starts ==============================[0m
+[1.592s] platform linux -- Python 3.8.10, pytest-4.6.9, py-1.8.1, pluggy-0.13.0
+[1.597s] cachedir: /home/rastic-smartcity/ros2_ws/build/my_package/.pytest_cache
+[1.598s] rootdir: /home/rastic-smartcity/ros2_ws/src/my_package
+[1.598s] plugins: launch-testing-ros-0.11.7, launch-testing-0.10.10, ament-pep257-0.9.8, ament-lint-0.9.8, ament-xmllint-0.9.8, ament-copyright-0.9.8, ament-flake8-0.9.8, colcon-core-0.18.1, cov-2.8.1
+[1.656s] [1mcollecting ... [0m[1m
+[1.656s] collected 3 items                                                              [0m
+[1.656s] 
+[1.698s] test/test_copyright.py [31mF[0m[36m                                                 [ 33%][0m
+[1.799s] test/test_flake8.py [32m.[0m[36m                                                    [ 66%][0m
+[1.818s] test/test_pep257.py [32m.[0m[36m                                                    [100%][0m
+[1.818s] 
+[1.818s] =================================== FAILURES ===================================
+[1.818s] [31m[1m________________________________ test_copyright ________________________________[0m
+[1.819s] [1m[31mtest/test_copyright.py[0m:23: in test_copyright
+[1.819s] [1m    assert rc == 0, 'Found errors'[0m
+[1.819s] [1m[31mE   AssertionError: Found errors[0m
+[1.819s] [1m[31mE   assert 1 == 0[0m
+[1.819s] ----------------------------- Captured stderr call -----------------------------
+[1.819s] my_package/my_node.py: could not find copyright notice
+[1.819s] 1 errors, checked 5 files
+[1.820s] - generated xml file: /home/rastic-smartcity/ros2_ws/build/my_package/pytest.xml -
+[1.820s] [31m[1m================ 1 failed, 2 passed, 1 warnings in 0.23 seconds ================[0m
+[1.820s] [33m=============================== warnings summary ===============================[0m
+[1.820s] /usr/lib/python3/dist-packages/pydocstyle/config.py:6
+[1.820s]   Warning: Using or importing the ABCs from 'collections' instead of from 'collections.abc' is deprecated since Python 3.3, and in 3.10 it will stop working
+[1.820s] 
+[1.820s] -- Docs: https://docs.pytest.org/en/latest/warnings.html
+[1.884s] Invoked command in '/home/rastic-smartcity/ros2_ws/src/my_package' returned '1': AMENT_PREFIX_PATH=/home/rastic-smartcity/ros2_ws/install/my_package:/home/rastic-smartcity/ros2_ws/install/turtle_demo_controller:/home/rastic-smartcity/ros2_ws/install/Rastic_seminar_Python:/home/rastic-smartcity/ros2_ws/install/turtlesim:/home/rastic-smartcity/ros2_ws/install/Rastic_seminar_python:/home/rastic-smartcity/ros2_ws/install/Rastic_seminar:/opt/ros/foxy PYTEST_ADDOPTS=--tb=short --junit-xml=/home/rastic-smartcity/ros2_ws/build/my_package/pytest.xml --junit-prefix=my_package -o cache_dir=/home/rastic-smartcity/ros2_ws/build/my_package/.pytest_cache PYTHONDONTWRITEBYTECODE=1 PYTHONPATH=/home/rastic-smartcity/ros2_ws/build/my_package:/home/rastic-smartcity/ros2_ws/install/my_package/lib/python3.8/site-packages:/home/rastic-smartcity/ros2_ws/install/turtle_demo_controller/lib/python3.8/site-packages:/home/rastic-smartcity/ros2_ws/install/Rastic_seminar_Python/lib/python3.8/site-packages:/home/rastic-smartcity/ros2_ws/install/turtlesim/lib/python3.8/site-packages:/home/rastic-smartcity/ros2_ws/install/Rastic_seminar_python/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages /usr/bin/python3 -m pytest

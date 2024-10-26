@@ -1,0 +1,77 @@
+[0.098s] Invoking command in '/home/rastic-smartcity/ros2_ws/build/examples_rclcpp_multithreaded_executor': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rastic-smartcity/ros2_ws/install/turtle_demo_controller:/home/rastic-smartcity/ros2_ws/install/Rastic_seminar_Python:/home/rastic-smartcity/ros2_ws/install/Rastic_seminar_python:/opt/ros/foxy /usr/bin/cmake /home/rastic-smartcity/ros2_ws/src/examples/rclcpp/executors/multithreaded_executor -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/rastic-smartcity/ros2_ws/install/examples_rclcpp_multithreaded_executor
+[3.296s] -- The C compiler identification is GNU 9.4.0
+[3.296s] -- The CXX compiler identification is GNU 9.4.0
+[3.296s] -- Check for working C compiler: /usr/bin/cc
+[3.296s] -- Check for working C compiler: /usr/bin/cc -- works
+[3.297s] -- Detecting C compiler ABI info
+[3.297s] -- Detecting C compiler ABI info - done
+[3.297s] -- Detecting C compile features
+[3.297s] -- Detecting C compile features - done
+[3.297s] -- Check for working CXX compiler: /usr/bin/c++
+[3.297s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[3.297s] -- Detecting CXX compiler ABI info
+[3.298s] -- Detecting CXX compiler ABI info - done
+[3.298s] -- Detecting CXX compile features
+[3.298s] -- Detecting CXX compile features - done
+[3.298s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[3.298s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[3.298s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[3.298s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[3.299s] -- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)
+[3.299s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[3.299s] -- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[3.299s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[3.299s] -- Found FastRTPS: /opt/ros/foxy/include  
+[3.299s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.299s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[3.300s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[3.300s] -- Looking for pthread.h
+[3.300s] -- Looking for pthread.h - found
+[3.300s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[3.300s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[3.300s] -- Looking for pthread_create in pthreads
+[3.300s] -- Looking for pthread_create in pthreads - not found
+[3.300s] -- Looking for pthread_create in pthread
+[3.301s] -- Looking for pthread_create in pthread - found
+[3.301s] -- Found Threads: TRUE  
+[3.301s] -- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[3.402s] -- Added test 'copyright' to check source files copyright and LICENSE
+[3.412s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[3.417s] -- Configured cppcheck include dirs: 
+[3.417s] -- Configured cppcheck exclude dirs and/or files: 
+[3.418s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[3.418s] -- Configured cpplint exclude dirs and/or files: 
+[3.418s] -- Added test 'lint_cmake' to check CMake code style
+[3.420s] -- Added test 'uncrustify' to check C / C++ code style
+[3.420s] -- Configured uncrustify additional arguments: 
+[3.420s] -- Added test 'xmllint' to check XML markup files
+[3.421s] -- Configuring done
+[3.423s] -- Generating done
+[3.423s] -- Build files have been written to: /home/rastic-smartcity/ros2_ws/build/examples_rclcpp_multithreaded_executor
+[3.484s] Invoked command in '/home/rastic-smartcity/ros2_ws/build/examples_rclcpp_multithreaded_executor' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rastic-smartcity/ros2_ws/install/turtle_demo_controller:/home/rastic-smartcity/ros2_ws/install/Rastic_seminar_Python:/home/rastic-smartcity/ros2_ws/install/Rastic_seminar_python:/opt/ros/foxy /usr/bin/cmake /home/rastic-smartcity/ros2_ws/src/examples/rclcpp/executors/multithreaded_executor -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/rastic-smartcity/ros2_ws/install/examples_rclcpp_multithreaded_executor
+[3.489s] Invoking command in '/home/rastic-smartcity/ros2_ws/build/examples_rclcpp_multithreaded_executor': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rastic-smartcity/ros2_ws/install/turtle_demo_controller:/home/rastic-smartcity/ros2_ws/install/Rastic_seminar_Python:/home/rastic-smartcity/ros2_ws/install/Rastic_seminar_python:/opt/ros/foxy /usr/bin/cmake --build /home/rastic-smartcity/ros2_ws/build/examples_rclcpp_multithreaded_executor -- -j12 -l12
+[3.659s] [35m[1mScanning dependencies of target multithreaded_executor[0m
+[3.789s] [ 50%] [32mBuilding CXX object CMakeFiles/multithreaded_executor.dir/multithreaded_executor.cpp.o[0m
+[17.922s] [100%] [32m[1mLinking CXX executable multithreaded_executor[0m
+[18.195s] [100%] Built target multithreaded_executor
+[18.208s] Invoked command in '/home/rastic-smartcity/ros2_ws/build/examples_rclcpp_multithreaded_executor' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rastic-smartcity/ros2_ws/install/turtle_demo_controller:/home/rastic-smartcity/ros2_ws/install/Rastic_seminar_Python:/home/rastic-smartcity/ros2_ws/install/Rastic_seminar_python:/opt/ros/foxy /usr/bin/cmake --build /home/rastic-smartcity/ros2_ws/build/examples_rclcpp_multithreaded_executor -- -j12 -l12
+[18.239s] Invoking command in '/home/rastic-smartcity/ros2_ws/build/examples_rclcpp_multithreaded_executor': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rastic-smartcity/ros2_ws/install/turtle_demo_controller:/home/rastic-smartcity/ros2_ws/install/Rastic_seminar_Python:/home/rastic-smartcity/ros2_ws/install/Rastic_seminar_python:/opt/ros/foxy /usr/bin/cmake --install /home/rastic-smartcity/ros2_ws/build/examples_rclcpp_multithreaded_executor
+[18.248s] -- Install configuration: ""
+[18.249s] -- Execute custom install script
+[18.253s] -- Symlinking: /home/rastic-smartcity/ros2_ws/install/examples_rclcpp_multithreaded_executor/lib/examples_rclcpp_multithreaded_executor/multithreaded_executor
+[18.259s] -- Symlinking: /home/rastic-smartcity/ros2_ws/install/examples_rclcpp_multithreaded_executor/share/ament_index/resource_index/package_run_dependencies/examples_rclcpp_multithreaded_executor
+[18.269s] -- Symlinking: /home/rastic-smartcity/ros2_ws/install/examples_rclcpp_multithreaded_executor/share/ament_index/resource_index/parent_prefix_path/examples_rclcpp_multithreaded_executor
+[18.281s] -- Symlinking: /home/rastic-smartcity/ros2_ws/install/examples_rclcpp_multithreaded_executor/share/examples_rclcpp_multithreaded_executor/environment/ament_prefix_path.sh
+[18.290s] -- Symlinking: /home/rastic-smartcity/ros2_ws/install/examples_rclcpp_multithreaded_executor/share/examples_rclcpp_multithreaded_executor/environment/ament_prefix_path.dsv
+[18.302s] -- Symlinking: /home/rastic-smartcity/ros2_ws/install/examples_rclcpp_multithreaded_executor/share/examples_rclcpp_multithreaded_executor/environment/path.sh
+[18.312s] -- Symlinking: /home/rastic-smartcity/ros2_ws/install/examples_rclcpp_multithreaded_executor/share/examples_rclcpp_multithreaded_executor/environment/path.dsv
+[18.323s] -- Symlinking: /home/rastic-smartcity/ros2_ws/install/examples_rclcpp_multithreaded_executor/share/examples_rclcpp_multithreaded_executor/local_setup.bash
+[18.334s] -- Symlinking: /home/rastic-smartcity/ros2_ws/install/examples_rclcpp_multithreaded_executor/share/examples_rclcpp_multithreaded_executor/local_setup.sh
+[18.347s] -- Symlinking: /home/rastic-smartcity/ros2_ws/install/examples_rclcpp_multithreaded_executor/share/examples_rclcpp_multithreaded_executor/local_setup.zsh
+[18.357s] -- Symlinking: /home/rastic-smartcity/ros2_ws/install/examples_rclcpp_multithreaded_executor/share/examples_rclcpp_multithreaded_executor/local_setup.dsv
+[18.367s] -- Symlinking: /home/rastic-smartcity/ros2_ws/install/examples_rclcpp_multithreaded_executor/share/examples_rclcpp_multithreaded_executor/package.dsv
+[18.377s] -- Symlinking: /home/rastic-smartcity/ros2_ws/install/examples_rclcpp_multithreaded_executor/share/ament_index/resource_index/packages/examples_rclcpp_multithreaded_executor
+[18.388s] -- Symlinking: /home/rastic-smartcity/ros2_ws/install/examples_rclcpp_multithreaded_executor/share/examples_rclcpp_multithreaded_executor/cmake/examples_rclcpp_multithreaded_executorConfig.cmake
+[18.397s] -- Symlinking: /home/rastic-smartcity/ros2_ws/install/examples_rclcpp_multithreaded_executor/share/examples_rclcpp_multithreaded_executor/cmake/examples_rclcpp_multithreaded_executorConfig-version.cmake
+[18.409s] -- Symlinking: /home/rastic-smartcity/ros2_ws/install/examples_rclcpp_multithreaded_executor/share/examples_rclcpp_multithreaded_executor/package.xml
+[18.429s] Invoked command in '/home/rastic-smartcity/ros2_ws/build/examples_rclcpp_multithreaded_executor' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rastic-smartcity/ros2_ws/install/turtle_demo_controller:/home/rastic-smartcity/ros2_ws/install/Rastic_seminar_Python:/home/rastic-smartcity/ros2_ws/install/Rastic_seminar_python:/opt/ros/foxy /usr/bin/cmake --install /home/rastic-smartcity/ros2_ws/build/examples_rclcpp_multithreaded_executor

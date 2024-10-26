@@ -1,0 +1,21 @@
+[0.352s] Invoking command in '/home/rastic-smartcity/ros2_ws/src/examples/rclpy/executors': AMENT_PREFIX_PATH=/home/rastic-smartcity/ros2_ws/install/examples_rclpy_executors:${AMENT_PREFIX_PATH} PYTEST_ADDOPTS=--tb=short --junit-xml=/home/rastic-smartcity/ros2_ws/build/examples_rclpy_executors/pytest.xml --junit-prefix=examples_rclpy_executors -o cache_dir=/home/rastic-smartcity/ros2_ws/build/examples_rclpy_executors/.pytest_cache PYTHONDONTWRITEBYTECODE=1 PYTHONPATH=/home/rastic-smartcity/ros2_ws/build/examples_rclpy_executors:/home/rastic-smartcity/ros2_ws/install/examples_rclpy_executors/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -m pytest
+[1.104s] [1m============================= test session starts ==============================[0m
+[1.104s] platform linux -- Python 3.8.10, pytest-4.6.9, py-1.8.1, pluggy-0.13.0
+[1.114s] cachedir: /home/rastic-smartcity/ros2_ws/build/examples_rclpy_executors/.pytest_cache
+[1.115s] rootdir: /home/rastic-smartcity/ros2_ws/src/examples/rclpy, inifile: pytest.ini
+[1.115s] plugins: launch-testing-ros-0.11.7, launch-testing-0.10.10, ament-pep257-0.9.8, ament-lint-0.9.8, ament-xmllint-0.9.8, ament-copyright-0.9.8, ament-flake8-0.9.8, colcon-core-0.18.1, cov-2.8.1
+[1.252s] [1mcollecting ... [0m[1m
+[1.256s] collected 3 items                                                              [0m
+[1.260s] 
+[1.307s] test/test_copyright.py [32m.[0m[36m                                                 [ 33%][0m
+[1.593s] test/test_flake8.py [32m.[0m[36m                                                    [ 66%][0m
+[1.672s] test/test_pep257.py [32m.[0m[36m                                                    [100%][0m
+[1.672s] 
+[1.673s] [33m=============================== warnings summary ===============================[0m
+[1.673s] /usr/lib/python3/dist-packages/pydocstyle/config.py:6
+[1.673s]   Warning: Using or importing the ABCs from 'collections' instead of from 'collections.abc' is deprecated since Python 3.3, and in 3.10 it will stop working
+[1.673s] 
+[1.673s] -- Docs: https://docs.pytest.org/en/latest/warnings.html
+[1.673s] - generated xml file: /home/rastic-smartcity/ros2_ws/build/examples_rclpy_executors/pytest.xml -
+[1.673s] [33m[1m===================== 3 passed, 1 warnings in 0.57 seconds =====================[0m
+[1.794s] Invoked command in '/home/rastic-smartcity/ros2_ws/src/examples/rclpy/executors' returned '0': AMENT_PREFIX_PATH=/home/rastic-smartcity/ros2_ws/install/examples_rclpy_executors:${AMENT_PREFIX_PATH} PYTEST_ADDOPTS=--tb=short --junit-xml=/home/rastic-smartcity/ros2_ws/build/examples_rclpy_executors/pytest.xml --junit-prefix=examples_rclpy_executors -o cache_dir=/home/rastic-smartcity/ros2_ws/build/examples_rclpy_executors/.pytest_cache PYTHONDONTWRITEBYTECODE=1 PYTHONPATH=/home/rastic-smartcity/ros2_ws/build/examples_rclpy_executors:/home/rastic-smartcity/ros2_ws/install/examples_rclpy_executors/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -m pytest

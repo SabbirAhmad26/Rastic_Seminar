@@ -1,0 +1,6 @@
+Invoking command in '/home/rastic-smartcity/ros2_ws/build/turtlesim': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/rastic-smartcity/ros2_ws/src/ros_tutorials/turtlesim -DCMAKE_INSTALL_PREFIX=/home/rastic-smartcity/ros2_ws/install/turtlesim
+Invoked command in '/home/rastic-smartcity/ros2_ws/build/turtlesim' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/rastic-smartcity/ros2_ws/src/ros_tutorials/turtlesim -DCMAKE_INSTALL_PREFIX=/home/rastic-smartcity/ros2_ws/install/turtlesim
+Invoking command in '/home/rastic-smartcity/ros2_ws/build/turtlesim': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/rastic-smartcity/ros2_ws/build/turtlesim -- -j12 -l12
+Invoked command in '/home/rastic-smartcity/ros2_ws/build/turtlesim' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/rastic-smartcity/ros2_ws/build/turtlesim -- -j12 -l12
+Invoking command in '/home/rastic-smartcity/ros2_ws/build/turtlesim': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/rastic-smartcity/ros2_ws/build/turtlesim
+Invoked command in '/home/rastic-smartcity/ros2_ws/build/turtlesim' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/rastic-smartcity/ros2_ws/build/turtlesim

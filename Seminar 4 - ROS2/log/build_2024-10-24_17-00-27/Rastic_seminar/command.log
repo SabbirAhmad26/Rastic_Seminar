@@ -1,0 +1,6 @@
+Invoking command in '/home/rastic-smartcity/ros2_ws/build/Rastic_seminar': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/rastic-smartcity/ros2_ws/src/ros_tutorials/Rastic_seminar -DCMAKE_INSTALL_PREFIX=/home/rastic-smartcity/ros2_ws/install/Rastic_seminar
+Invoked command in '/home/rastic-smartcity/ros2_ws/build/Rastic_seminar' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/rastic-smartcity/ros2_ws/src/ros_tutorials/Rastic_seminar -DCMAKE_INSTALL_PREFIX=/home/rastic-smartcity/ros2_ws/install/Rastic_seminar
+Invoking command in '/home/rastic-smartcity/ros2_ws/build/Rastic_seminar': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/rastic-smartcity/ros2_ws/build/Rastic_seminar -- -j12 -l12
+Invoked command in '/home/rastic-smartcity/ros2_ws/build/Rastic_seminar' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/rastic-smartcity/ros2_ws/build/Rastic_seminar -- -j12 -l12
+Invoking command in '/home/rastic-smartcity/ros2_ws/build/Rastic_seminar': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/rastic-smartcity/ros2_ws/build/Rastic_seminar
+Invoked command in '/home/rastic-smartcity/ros2_ws/build/Rastic_seminar' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/rastic-smartcity/ros2_ws/build/Rastic_seminar

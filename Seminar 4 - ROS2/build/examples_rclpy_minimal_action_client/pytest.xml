@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?><testsuites><testsuite errors="0" failures="0" hostname="rastic-XPS-9315" name="pytest" skipped="0" tests="3" time="0.579" timestamp="2024-10-24T19:26:26.271611"><testcase classname="examples_rclpy_minimal_action_client.actions.minimal_action_client.test.test_copyright" name="test_copyright" time="0.044"><system-out>No problems found, checked 7 files
+</system-out></testcase><testcase classname="examples_rclpy_minimal_action_client.actions.minimal_action_client.test.test_flake8" name="test_flake8" time="0.295"><system-out>
+8 files checked
+No problems found
+
+Checked files:
+
+* ./setup.py
+* ./examples_rclpy_minimal_action_client/client.py
+* ./examples_rclpy_minimal_action_client/client_cancel.py
+* ./examples_rclpy_minimal_action_client/client_not_composable.py
+* ./examples_rclpy_minimal_action_client/__init__.py
+* ./test/test_copyright.py
+* ./test/test_pep257.py
+* ./test/test_flake8.py
+</system-out></testcase><testcase classname="examples_rclpy_minimal_action_client.actions.minimal_action_client.test.test_pep257" name="test_pep257" time="0.072"><system-out>checking ./examples_rclpy_minimal_action_client/__init__.py
+checking ./examples_rclpy_minimal_action_client/client.py
+checking ./examples_rclpy_minimal_action_client/client_cancel.py
+checking ./examples_rclpy_minimal_action_client/client_not_composable.py
+checking ./setup.py
+checking ./test/test_copyright.py
+checking ./test/test_flake8.py
+checking ./test/test_pep257.py
+No problems found
+</system-out></testcase></testsuite></testsuites>

@@ -1,0 +1,15 @@
+/home/rastic-smartcity/ros2_ws/install/Rastic_seminar/share/ament_index/resource_index/package_run_dependencies/Rastic_seminar
+/home/rastic-smartcity/ros2_ws/install/Rastic_seminar/share/ament_index/resource_index/parent_prefix_path/Rastic_seminar
+/home/rastic-smartcity/ros2_ws/install/Rastic_seminar/share/Rastic_seminar/environment/ament_prefix_path.sh
+/home/rastic-smartcity/ros2_ws/install/Rastic_seminar/share/Rastic_seminar/environment/ament_prefix_path.dsv
+/home/rastic-smartcity/ros2_ws/install/Rastic_seminar/share/Rastic_seminar/environment/path.sh
+/home/rastic-smartcity/ros2_ws/install/Rastic_seminar/share/Rastic_seminar/environment/path.dsv
+/home/rastic-smartcity/ros2_ws/install/Rastic_seminar/share/Rastic_seminar/local_setup.bash
+/home/rastic-smartcity/ros2_ws/install/Rastic_seminar/share/Rastic_seminar/local_setup.sh
+/home/rastic-smartcity/ros2_ws/install/Rastic_seminar/share/Rastic_seminar/local_setup.zsh
+/home/rastic-smartcity/ros2_ws/install/Rastic_seminar/share/Rastic_seminar/local_setup.dsv
+/home/rastic-smartcity/ros2_ws/install/Rastic_seminar/share/Rastic_seminar/package.dsv
+/home/rastic-smartcity/ros2_ws/install/Rastic_seminar/share/ament_index/resource_index/packages/Rastic_seminar
+/home/rastic-smartcity/ros2_ws/install/Rastic_seminar/share/Rastic_seminar/cmake/Rastic_seminarConfig.cmake
+/home/rastic-smartcity/ros2_ws/install/Rastic_seminar/share/Rastic_seminar/cmake/Rastic_seminarConfig-version.cmake
+/home/rastic-smartcity/ros2_ws/install/Rastic_seminar/share/Rastic_seminar/package.xml
