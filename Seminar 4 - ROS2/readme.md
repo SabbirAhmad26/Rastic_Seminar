@@ -9,7 +9,7 @@ cd ~/ros2_ws/src
 ```
 
 Clone the repository into src
-git clone https://github.com/aliy98/ROS_TurtleBot3_PID_Controller.git
+git clone https://github.com/SabbirAhmad26/Rastic_Seminar/tree/main/Seminar%204%20-%20ROS2.git
 
 Build the package
 ```
