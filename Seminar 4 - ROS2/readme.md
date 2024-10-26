@@ -22,8 +22,10 @@ Source ROS2
 source /opt/ros/foxy/setup.bash
 ```
 
-# Source the workspace
+Source the workspace
+```
 source install/local_setup.bash
+```
 
 # Launch the ROS2 node
 ros2 run turtleController controller
