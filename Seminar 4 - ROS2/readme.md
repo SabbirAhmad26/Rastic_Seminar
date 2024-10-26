@@ -9,7 +9,7 @@ cd ~/ros2_ws/src
 ```
 
 Clone the repository into src
-git clone https://https://github.com/SabbirAhmad26/Rastic_Seminar/Seminar%204%20-%20ROS2.git
+git clone https://https://github.com/SabbirAhmad26/Rastic_Seminar.git
 
 Build the package
 ```
