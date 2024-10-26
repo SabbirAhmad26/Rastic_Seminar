@@ -17,8 +17,10 @@ cd ~/ros2_ws
 colcon build
 ```
 
-# Source ROS2 
+Source ROS2 
+```
 source /opt/ros/foxy/setup.bash
+```
 
 # Source the workspace
 source install/local_setup.bash
