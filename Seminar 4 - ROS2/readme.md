@@ -11,10 +11,11 @@ cd ~/ros2_ws/src
 Clone the repository into src
 git clone https://github.com/aliy98/ROS_TurtleBot3_PID_Controller.git
 
-
-# Build the package
+Build the package
+```
 cd ~/ros2_ws
 colcon build
+```
 
 # Source ROS2 
 source /opt/ros/foxy/setup.bash
